@@ -1,4 +1,3 @@
-
 # O(logN) solution
 
 class Solution:

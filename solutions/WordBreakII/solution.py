@@ -1,6 +1,4 @@
 
-
-
 class Solution:
     def wordBreak(self, s: str, wd: List[str]) -> List[str]:
         ln = len(s)
