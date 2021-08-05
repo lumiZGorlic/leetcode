@@ -13,11 +13,13 @@ class Solution:
             if visited[root] == -1: return False
             if visited[root] == 1: return True
 
+            # node is being visited
             visited[root] = -1
 
             for n in graph[root]:
                 if not dfs(n): return False
 
+            # node has been visited
             visited[root] = 1
             return True
             pass
