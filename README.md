@@ -22,6 +22,7 @@ Template
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C](./solutions/ImplementStrStr/solution.c)| check if s1 is a substring of s2 |
 | 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./solutions/SearchInRotatedSortedArray/solution.cpp)| binary search |
 | 50 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Python](./solutions/PowXn/solution.py)  |  |
+| 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./solutions/NQueens/solution.py)| classic n queens problem, backtracking |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./solutions/MaximumSubarray/solution.cpp)  | find the contiguous subarray which has the largest sum |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./solutions/UniquePaths/solution.cpp)| dp |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
