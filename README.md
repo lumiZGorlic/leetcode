@@ -26,6 +26,8 @@ Template
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./solutions/MaximumSubarray/solution.cpp)  | find the contiguous subarray which has the largest sum |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./solutions/UniquePaths/solution.cpp)| dp |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
+| 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./solutions/SingleNumber/solution.cpp) | classic xor |
+| 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](./solutions/SingleNumberII/solution.cpp) | traverse, keep adding bits on every position, divide modulo by three and voila |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](./solutions/WordBreak/solution.cpp) | dp |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [Python](./solutions/WordBreakII/solution.py) | dp |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./solutions/LRUCache/solution.cpp)| |
@@ -38,6 +40,7 @@ Template
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [C++](./solutions/CourseScheduleII/solution.cpp)  | topological sort |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Python](./solutions/HouseRobberII/solution.py)| like a classic house robber but houses arranged in circle |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](./solutions/InvertBinaryTree/solution.cpp)| |
+| 232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./solutions/ImplementQueueUsingStacks/solution.cpp) | use one stack for input and one for output |
 | 297 | [Serialize And Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](./solutions/SerializeAndDeserializeBinaryTree/solution.py) [C++](./solutions/SerializeAndDeserializeBinaryTree/solution.cpp) | pre-order traversal works, not sure about formal proof, easy to see that post and in-order traversals not up to the task  |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/ ) | [C++](./solutions/LongestIncreasingSubsequence/solution.cpp) [Python](./solutions/LongestIncreasingSubsequence/solution.py)| C++ solution easy dp in O(N^2), Python a bit tricky in O(NlnN), matma |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./solutions/CoinChange/solution.cpp) | classic dp, the fewest number of coins to make up the amount |
