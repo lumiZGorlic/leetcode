@@ -8,7 +8,7 @@ blablabla
 tags: matma, try also, cool python
 
 Template
-| 00 | [...](https://leetcode.com/problems/.../) | [C++](./solutions/..../solution.cpp) [Python](./solutions/..../solution.py)| ... |
+| 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 
 
@@ -21,21 +21,27 @@ Template
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./solutions/GenerateParentheses/solution.py)| generate all valid combinations, recursion |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C](./solutions/ImplementStrStr/solution.c)| check if s1 is a substring of s2 |
 | 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./solutions/SearchInRotatedSortedArray/solution.cpp)| binary search |
+| 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./solutions/TrappingRainWater/solution.py)| classic, try also one pass solution |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [C++](./solutions/JumpGameII/solution.cpp)| same as 55 but here need to find out min number of jumps |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./solutions/Permutations/solution.cpp) [Python](./solutions/Permutations/solution.py)| generate permutations, cool python |
 | 50 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Python](./solutions/PowXn/solution.py)  |  |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./solutions/NQueens/solution.py)| classic n queens problem, backtracking |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./solutions/MaximumSubarray/solution.cpp)  | find the contiguous subarray which has the largest sum |
+| 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |  [Python](./solutions/SpiralMatrix/solution.py)| my solution with O(N) space, try also O(1) space  |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](./solutions/JumpGame/solution.py)| array of ints, each value max jump you can do from the current index, can you reach the last index |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./solutions/UniquePaths/solution.cpp)| dp |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
+| 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](./solutions/SymmetricTree/solution.cpp) [Python](./solutions/SymmetricTree/solution.py)| recursive and iterative |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./solutions/SingleNumber/solution.cpp) | classic xor |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](./solutions/SingleNumberII/solution.cpp) | traverse, keep adding bits on every position, divide modulo by three and voila |
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](./solutions/WordBreak/solution.cpp) | dp |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [Python](./solutions/WordBreakII/solution.py) | dp |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](./solutions/LinkedListCycle/solution.cpp)| classic, two pointers |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](./solutions/LinkedListCycleII/solution.cpp)| Floyd's Tortoise and Hare Algorithm |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./solutions/LRUCache/solution.cpp)| |
+| 151 | [Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string/) | [C++](./solutions/ReverseWordsInAString/solution.cpp) [C](./solutions/ReverseWordsInAString/solution.c)|  |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./solutions/MajorityElement/solution.cpp)| Boyer–Moore majority vote algorithm |
+| 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./solutions/RotateArray/solution.cpp) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [C++](./solutions/HouseRobber/solution.cpp)| |
 | 200 | [Number Of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](./solutions/NumberOfIslands/solution.cpp)| count islands in a binary matrix |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | [Python](./solutions/CountPrimes/solution.py) | Eratosthenes sieve |
