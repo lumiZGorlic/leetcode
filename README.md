@@ -12,13 +12,6 @@ Template
 
 
 
-
-
-
-
-
-
-
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -36,6 +29,7 @@ Template
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](./solutions/JumpGame/solution.py)| array of ints, each value max jump you can do from the current index, can you reach the last index |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./solutions/UniquePaths/solution.cpp)| dp |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
+| 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./solutions/Sqrtx/solution.py) | bs, try also Newton |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](./solutions/SymmetricTree/solution.cpp) [Python](./solutions/SymmetricTree/solution.py)| recursive and iterative |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C](./solutions/BestTimeToBuyAndSellStock/solution.c)|  |
 | 122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./solutions/BestTimeToBuyAndSellStockII/solution.cpp)| at each step if profit can be made - do it  |
@@ -71,7 +65,9 @@ Template
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./solutions/KokoEatingBananas/solution.cpp)| max speed that satisfies a specific condition, use binary search |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [C++](./solutions/StoneGame/solution.cpp)| dp |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Python](./solutions/MinimumFallingPathSum/solution.py)| dp, similar to 1937 |
+| 969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./solutions/PancakeSorting/solution.py)| should be self descriptive |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [C++](./solutions/MaxConsecutiveOnesIII/solution.cpp) | binary array and we can flip at most k '0's. What's the longest sequence of '1' we can get. Special case also solved in cpp file - what if only one '0' can be flipped. Classic sliding window. |
+| 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](./solutions/LongestCommonSubsequence/solution.py)| two strings and find LCS, dp |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | [C++](./solutions/LongestHappyString/solution.cpp)| string composed only of 'a', 'b', 'c'. Cannot have triplets (e.g. 'bbb'). Can have at most a occurences of 'a', b of 'b', c of 'c'.Construct longest possible. Similar to 621 (Task Scheduler)|
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | [C++](./solutions/PathWithMaximumProbability/solution.cpp)  | Dijkstra's algorithm |
 | 1937 | [Maximum Number Of Points With Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) | [C++](./solutions/MaximumNumberOfPointsWithCost/solution.cpp)| dp |
