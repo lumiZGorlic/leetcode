@@ -14,7 +14,6 @@ Template
 
 
 
-
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -36,6 +35,7 @@ Template
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./solutions/UniquePaths/solution.cpp)| dp |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./solutions/Sqrtx/solution.py) | bs, try also Newton |
+| 84 | [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./solutions/LargestRectangleInHistogram/solution.py) [C++](./solutions/LargestRectangleInHistogram/solution.cpp) | classic stack  |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./solutions/BinaryTreeInorderTraversal/solution.py)| iterative solutions |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./solutions/UniqueBinarySearchTrees/solution.py)| how many structurally unique BSTs can you build |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](./solutions/SymmetricTree/solution.cpp) [Python](./solutions/SymmetricTree/solution.py)| recursive and iterative |
@@ -76,6 +76,7 @@ Template
 | 348 | [Shuffle An Array](https://leetcode.com/problems/shuffle-an-array/) | [C++](./solutions/ShuffleAnArray/solution.cpp) | Fisher Yates Algorithm for random shuffling |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [C++](./solutions/AddTwoNumbersII/solution.cpp)| reverse linked list |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Python](./solutions/SortCharactersByFrequency/solution.py)|  |
+| 453 | [Minimum Number Of Arrows To Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Python](./solutions/MinimumNumberOfArrowsToBurstBalloons/solution.py)| sort and greedy  |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./solutions/TargetSum/solution.py)| given a sequence of ints, insert '+'s and '-'s to end up with target sum |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [C++](./solutions/LongestPalindromicSubsequence/solution.cpp) | classic dp |
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [C++](./solutions/CoinChange2/solution.cpp) | classic dp, the number of combinations that make up the amount |
