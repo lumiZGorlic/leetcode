@@ -39,7 +39,7 @@ Template
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./solutions/BinaryTreeInorderTraversal/solution.py)| iterative solutions |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./solutions/UniqueBinarySearchTrees/solution.py)| how many structurally unique BSTs can you build |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](./solutions/SymmetricTree/solution.cpp) [Python](./solutions/SymmetricTree/solution.py)| recursive and iterative |
-| 102 | [Binary Tree Level Order Traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal /) | [C++](./solutions/BinaryTreeLevelOrderTraversal/solution.cpp) [Python](./solutions/BinaryTreeLevelOrderTraversal/solution.py)| bfs or pre-order traversal |
+| 102 | [Binary Tree Level Order Traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./solutions/BinaryTreeLevelOrderTraversal/solution.cpp) [Python](./solutions/BinaryTreeLevelOrderTraversal/solution.py)| bfs or pre-order traversal |
 | 118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./solutions/PascalsTriangle/solution.py)|  |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C](./solutions/BestTimeToBuyAndSellStock/solution.c)|  |
 | 122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./solutions/BestTimeToBuyAndSellStockII/solution.cpp)| at each step if profit can be made - do it  |
