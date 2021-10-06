@@ -43,7 +43,7 @@ Template
 | 118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./solutions/PascalsTriangle/solution.py)|  |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C](./solutions/BestTimeToBuyAndSellStock/solution.c)|  |
 | 122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./solutions/BestTimeToBuyAndSellStockII/solution.cpp)| at each step if profit can be made - do it  |
-| 123 | [Best Time To Buy And Sell Stock III] (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [C++](./solutions/BestTimeToBuyAndSellStockIII/solution.cpp) [Python](./solutions/BestTimeToBuyAndSellStockIII/solution.py) | 2 transactions allowed, my solution with 2 arrays |
+| 123 | [Best Time To Buy And Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [C++](./solutions/BestTimeToBuyAndSellStockIII/solution.cpp) [Python](./solutions/BestTimeToBuyAndSellStockIII/solution.py) | 2 transactions allowed, my solution with 2 arrays |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [C++](./solutions/LongestConsecutiveSequence/solution.cpp) [Python](./solutions/LongestConsecutiveSequence/solution.py)| given unsorted array find the longest consecutive sequence (if the array was sorted)  |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | [C++](./solutions/GasStation/solution.cpp) | visiting a sequence of gas stations, where to start to complete the journey, greedy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./solutions/SingleNumber/solution.cpp) | classic xor |
@@ -57,9 +57,9 @@ Template
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./solutions/LRUCache/solution.cpp)| |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [C++](./solutions/EvaluateReversePolishNotation/solution.cpp) [Python](./solutions/EvaluateReversePolishNotation/solution.py)| classic stack, cool c++ lambda |
 | 151 | [Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string/) | [C++](./solutions/ReverseWordsInAString/solution.cpp) [C](./solutions/ReverseWordsInAString/solution.c)|  |
-| 155 | [Min Stack] (https://leetcode.com/problems/MinStack/) | [C++](./solutions/Min-Stack/solution.cpp) | classic, with a trick we can use just one stack |
+| 155 | [Min Stack](https://leetcode.com/problems/MinStack/)| [C++](./solutions/Min-Stack/solution.cpp) | classic, with a trick we can use just one stack |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./solutions/MajorityElement/solution.cpp)| Boyer–Moore majority vote algorithm |
-| 188 | [Best Time To Buy And Sell Stock IV] (https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [C++](./solutions/BestTimeToBuyAndSellStockIV/solution.cpp) [Python](./solutions/BestTimeToBuyAndSellStockIV/solution.py) | k transactions allowed |
+| 188 | [Best Time To Buy And Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [C++](./solutions/BestTimeToBuyAndSellStockIV/solution.cpp) [Python](./solutions/BestTimeToBuyAndSellStockIV/solution.py) | k transactions allowed |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./solutions/RotateArray/solution.cpp) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [C++](./solutions/HouseRobber/solution.cpp)| |
 | 200 | [Number Of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](./solutions/NumberOfIslands/solution.cpp)| count islands in a binary matrix |
@@ -78,7 +78,7 @@ Template
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/ ) | [C++](./solutions/LongestIncreasingSubsequence/solution.cpp) [Python](./solutions/LongestIncreasingSubsequence/solution.py)| C++ solution easy dp in O(N^2), Python a bit tricky in O(NlnN), matma |
 | 309 | [Best Time To Buy And Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Python](./solutions/BestTimeToBuyAndSellStockWithCooldown/solution.py) [C++](./solutions/BestTimeToBuyAndSellStockWithCooldown/solution.cpp)|  |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./solutions/CoinChange/solution.cpp) | classic dp, the fewest number of coins to make up the amount |
-| 334 | [Increasing Triplet Subsequence] (https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./solutions/IncreasingTripletSubsequence/solution.py) | |
+| 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./solutions/IncreasingTripletSubsequence/solution.py) | |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [C++](./solutions/HouseRobberIII/solution.cpp)| house robber in a binary tree |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./solutions/CountingBits/solution.cpp) | for a sequence of ints e.g 1,2,3,4,5 calculate mapping int - number of bits in binary representation  |
 | 348 | [Shuffle An Array](https://leetcode.com/problems/shuffle-an-array/) | [C++](./solutions/ShuffleAnArray/solution.cpp) | Fisher Yates Algorithm for random shuffling |
@@ -91,7 +91,7 @@ Template
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [C++](./solutions/LongestPalindromicSubsequence/solution.cpp) | classic dp |
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [C++](./solutions/CoinChange2/solution.cpp) | classic dp, the number of combinations that make up the amount |
 | 532 | [K Diff Pairs In An Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) |  [Python](./solutions/KDiffPairsInAnArray/solution.py)| find all unique pairs for which diff equals k |
-| 539 | [Minimum Time Difference] (https://leetcode.com/problems/minimum-time-difference/) | [Python](./solutions/MinimumTimeDifference/solution.py) | convert to minutes and sort |
+| 539 | [Minimum Time Difference](https://leetcode.com/problems/minimum-time-difference/) | [Python](./solutions/MinimumTimeDifference/solution.py) | convert to minutes and sort |
 | 542 | [01 Matrix](https://leetcode.com/problems/01-matrix/) | [Python](./solutions/01Matrix/solution.py)| binary matrix, for each cell calculate distance from the neareast '0'. bfs. |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./solutions/SubarraySumEqualsK/solution.py)| total number of continuous subarrays whose sum equals to k, use hashing |
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [Python](./solutions/DistributeCandies/solution.py)| n candies given, can be of different types, take half and maximize number of different types |
@@ -102,11 +102,11 @@ Template
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./solutions/KokoEatingBananas/solution.cpp)| max speed that satisfies a specific condition, use binary search |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [C++](./solutions/StoneGame/solution.cpp)| dp |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Python](./solutions/MinimumFallingPathSum/solution.py)| dp, similar to 1937 |
-| 957 | [Prison Cells After N Days] (https://leetcode.com/problems/prison-cells-after-n-days/) | [Python](./solutions/PrisonCellsAfterNDays/solution.py) | cells become occupied or vacant, similar to bulbs, find cycle so we don't simulate it too many times |
+| 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | [Python](./solutions/PrisonCellsAfterNDays/solution.py) | cells become occupied or vacant, similar to bulbs, find cycle so we don't simulate it too many times |
 | 969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./solutions/PancakeSorting/solution.py)| should be self descriptive |
-| 988 | [Smallest String Starting From Leaf] (https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [C++](./solutions/SmallestStringStartingFromLeaf/solution.cpp) | dfs |
+| 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [C++](./solutions/SmallestStringStartingFromLeaf/solution.cpp) | dfs |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [C++](./solutions/MaxConsecutiveOnesIII/solution.cpp) | binary array and we can flip at most k '0's. What's the longest sequence of '1' we can get. Special case also solved in cpp file - what if only one '0' can be flipped. Classic sliding window. |
-| 1081 | [Smallest Subsequence Of Distinct Characters] (https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | [Python](./solutions/SmallestSubsequenceOfDistinctCharacters/solution.py) | hashing and intuition |
+| 1081 | [Smallest Subsequence Of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | [Python](./solutions/SmallestSubsequenceOfDistinctCharacters/solution.py) | hashing and intuition |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](./solutions/LongestCommonSubsequence/solution.py)| two strings and find LCS, dp |
 | 1221 | [Split A String In Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [C++](./solutions/SplitAStringInBalancedStrings/solution.cpp) | split binary string in balanced substrings |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | [C++](./solutions/LongestHappyString/solution.cpp)| string composed only of 'a', 'b', 'c'. Cannot have triplets (e.g. 'bbb'). Can have at most a occurences of 'a', b of 'b', c of 'c'.Construct longest possible. Similar to 621 (Task Scheduler)|
