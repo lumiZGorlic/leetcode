@@ -24,6 +24,7 @@ Template
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./solutions/NextPermutation/solution.py)|  |
 | 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./solutions/SearchInRotatedSortedArray/solution.cpp)| binary search |
 | 34 | [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./solutions/FindFirstAndLastPositionOfElementInSortedArray/solution.py)| self descriptive, use bs |
+| 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./solutions/CombinationSum/solution.py)| given int array find combinations that sum up to target, unbound knapsack problem |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./solutions/FirstMissingPositive/solution.py)| move values around i.e. '1' to index 0, '5' to index '6' etc  |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./solutions/TrappingRainWater/solution.py)| classic, try also one pass solution |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [C++](./solutions/JumpGameII/solution.cpp)| same as 55 but here need to find out min number of jumps |
@@ -114,6 +115,7 @@ Template
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](./solutions/MaximumLengthOfRepeatedSubarray/solution.py)| two arrays given, longest common subarray, dp  |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./solutions/DailyTemperatures/solution.py)| for each day find number of days to wait for warmer temperature, use stack |
 | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | [C++](./solutions/OpenTheLock/solution.cpp) | graph problem, bfs |
+| 785 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [Python](./solutions/IsGraphBipartite/solution.py)| can nodes be split into two groups and every edge connects these two groups, bfs or dfs |
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Python](./solutions/CheapestFlightsWithinKStops/solution.py)| weighted graph given anf find the cheapest path from src to dst that has maximum K stops, dfs or bfs or other approaches |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./solutions/KokoEatingBananas/solution.cpp)| max speed that satisfies a specific condition, use binary search |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [C++](./solutions/StoneGame/solution.cpp)| dp |
