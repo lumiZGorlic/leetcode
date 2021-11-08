@@ -30,6 +30,7 @@ Template
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [C++](./solutions/JumpGameII/solution.cpp)| same as 55 but here need to find out min number of jumps |
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./solutions/Permutations/solution.cpp) [Python](./solutions/Permutations/solution.py)| generate permutations, cool python |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [Python](./solutions/PermutationsII/solution.py)| generate permutations, input might contain duplicates |
+| 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./solutions/RotateImage/solution.py)| 2d matrix rotate by 90 degrees. just come up with an index convention |
 | 50 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Python](./solutions/PowXn/solution.py)  |  |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./solutions/NQueens/solution.py)| classic n queens problem, backtracking |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./solutions/MaximumSubarray/solution.cpp)  | find the contiguous subarray which has the largest sum |
