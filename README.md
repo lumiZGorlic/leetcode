@@ -52,8 +52,10 @@ Template
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C](./solutions/BestTimeToBuyAndSellStock/solution.c)|  |
 | 122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./solutions/BestTimeToBuyAndSellStockII/solution.cpp)| at each step if profit can be made - do it  |
 | 123 | [Best Time To Buy And Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/) | [C++](./solutions/BestTimeToBuyAndSellStockIII/solution.cpp) [Python](./solutions/BestTimeToBuyAndSellStockIII/solution.py) | 2 transactions allowed, my solution with 2 arrays |
+| 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](./solutions/BinaryTreeMaximumPathSum/solution.py) | recursion |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [C++](./solutions/WordLadder/solution.cpp) | bidirectional bfs |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [C++](./solutions/LongestConsecutiveSequence/solution.cpp) [Python](./solutions/LongestConsecutiveSequence/solution.py)| given unsorted array find the longest consecutive sequence (if the array was sorted)  |
+| 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [C++](./solutions/CloneGraph/solution.cpp) | use recursion and hash map |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | [C++](./solutions/GasStation/solution.cpp) | visiting a sequence of gas stations, where to start to complete the journey, greedy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./solutions/SingleNumber/solution.cpp) | classic xor |
 | 137 | [Single Number II](https://leetcode.com/problems/single-number-ii/) | [C++](./solutions/SingleNumberII/solution.cpp) | traverse, keep adding bits on every position, divide modulo by three and voila |
@@ -114,6 +116,7 @@ Template
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [Python](./solutions/DistributeCandies/solution.py)| n candies given, can be of different types, take half and maximize number of different types |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](./solutions/MergeTwoBinaryTrees/solution.cpp) | as title says |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./solutions/TaskScheduler/solution.py) [C++](./solutions/TaskScheduler/solution.cpp) | python solution with heap and C++ more direct |
+| 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Python](./solutions/SubarrayProductLessThanK/solution.py) | find number of subarrays where the product of all the elements is less than given k, sliding window |
 | 714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](./solutions/BestTimeToBuyAndSellStockWithTransactionFee/solution.py)|  |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](./solutions/MaximumLengthOfRepeatedSubarray/solution.py)| two arrays given, longest common subarray, dp  |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./solutions/DailyTemperatures/solution.py)| for each day find number of days to wait for warmer temperature, use stack |
@@ -126,8 +129,10 @@ Template
 | 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | [Python](./solutions/PrisonCellsAfterNDays/solution.py) | cells become occupied or vacant, similar to bulbs, find cycle so we don't simulate it too many times |
 | 969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./solutions/PancakeSorting/solution.py)| should be self descriptive |
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [C++](./solutions/SmallestStringStartingFromLeaf/solution.cpp) | dfs |
+| 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](./solutions/RottingOranges/solution.cpp) | matrix problem, to solve do simulation |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [C++](./solutions/MaxConsecutiveOnesIII/solution.cpp) | binary array and we can flip at most k '0's. What's the longest sequence of '1' we can get. Special case also solved in cpp file - what if only one '0' can be flipped. Classic sliding window. |
 | 1081 | [Smallest Subsequence Of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | [Python](./solutions/SmallestSubsequenceOfDistinctCharacters/solution.py) | hashing and intuition |
+| 1124 | [Longest Well Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | [Python](./solutions/LongestWellPerformingInterval/solution.py)| binary array, find longest subarray with more 1s than 0s, hashing to solve in linear time |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](./solutions/LongestCommonSubsequence/solution.py)| two strings and find LCS, dp |
 | 1221 | [Split A String In Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [C++](./solutions/SplitAStringInBalancedStrings/solution.cpp) | split binary string in balanced substrings |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | [C++](./solutions/LongestHappyString/solution.cpp)| string composed only of 'a', 'b', 'c'. Cannot have triplets (e.g. 'bbb'). Can have at most a occurences of 'a', b of 'b', c of 'c'.Construct longest possible. Similar to 621 (Task Scheduler)|
