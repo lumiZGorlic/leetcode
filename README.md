@@ -13,6 +13,7 @@ Template
 
 
 
+
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -48,6 +49,7 @@ Template
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./solutions/UniqueBinarySearchTrees/solution.py)| how many structurally unique BSTs can you build |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](./solutions/SymmetricTree/solution.cpp) [Python](./solutions/SymmetricTree/solution.py)| recursive and iterative |
 | 102 | [Binary Tree Level Order Traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./solutions/BinaryTreeLevelOrderTraversal/solution.cpp) [Python](./solutions/BinaryTreeLevelOrderTraversal/solution.py)| bfs or pre-order traversal |
+| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [C++](./solutions/PathSumII/solution.cpp) | fin all paths root to leaf that sum to given value. dfs |
 | 118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./solutions/PascalsTriangle/solution.py)|  |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C](./solutions/BestTimeToBuyAndSellStock/solution.c)|  |
 | 122 | [Best Time To Buy And Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [C++](./solutions/BestTimeToBuyAndSellStockII/solution.cpp)| at each step if profit can be made - do it  |
@@ -70,9 +72,11 @@ Template
 | 151 | [Reverse Words In A String](https://leetcode.com/problems/reverse-words-in-a-string/) | [C++](./solutions/ReverseWordsInAString/solution.cpp) [C](./solutions/ReverseWordsInAString/solution.c)|  |
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/)| [C++](./solutions/MinStack/solution.cpp) | classic, with a trick we can use just one stack |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./solutions/MajorityElement/solution.cpp)| Boyer–Moore majority vote algorithm |
+| 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | [C++](./solutions/LargestNumber/solution.cpp) [Python](./solutions/LargestNumber/solution.py)| array of non-negative ints give. Arrange themm so that they form largest number possible. Need a clever comparison operator |
 | 188 | [Best Time To Buy And Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [C++](./solutions/BestTimeToBuyAndSellStockIV/solution.cpp) [Python](./solutions/BestTimeToBuyAndSellStockIV/solution.py) | k transactions allowed |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./solutions/RotateArray/solution.cpp) |  |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [C++](./solutions/HouseRobber/solution.cpp)| |
+| 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [C++](./solutions/BinaryTreeRightSideView/solution.cpp) [Python](./solutions/BinaryTreeRightSideView/solution.py)| dfs preorder traversal or bfs |
 | 200 | [Number Of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](./solutions/NumberOfIslands/solution.cpp)| count islands in a binary matrix |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | [Python](./solutions/CountPrimes/solution.py) | Eratosthenes sieve |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](./solutions/CourseSchedule/solution.py)  | dfs |
@@ -97,8 +101,10 @@ Template
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [C++](./solutions/HouseRobberIII/solution.cpp)| house robber in a binary tree |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./solutions/CountingBits/solution.cpp) | for a sequence of ints e.g 1,2,3,4,5 calculate mapping int - number of bits in binary representation  |
 | 348 | [Shuffle An Array](https://leetcode.com/problems/shuffle-an-array/) | [C++](./solutions/ShuffleAnArray/solution.cpp) | Fisher Yates Algorithm for random shuffling |
+| 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [C++](./solutions/RussianDollEnvelopes/solution.cpp) | kind of matryoshka problem with 2d envelopes. sort and then dp |
 | 380 | [Insert Delete Get Random in O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [C++](./solutions/InsertDeleteGetRandomO1/solution.cpp) | class to insert values, delete and get random |
 | 403 | [Frog Jump](https://leetcode.com/problems/frog-jump/) | [Python](./solutions/FrogJump/solution.py)| array of ints gives mapping index to position, frog jumping, dp |
+| 406 | [Queue Reconstruction By Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [C++](./solutions/QueueReconstructionByHeight/solution.cpp) [Python](./solutions/QueueReconstructionByHeight/solution.py)| array of pairs (person's height, person's position in the original queue) given. Reconstruct the queue based on the array. |
 | 413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [Python](./solutions/ArithmeticSlices/solution.py)| Gauss formula |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Python](./solutions/PartitionEqualSubsetSum/solution.py)| can split array into two that have same sum, dp knapsack problem |
 | 438 | [Find All Anagrams In A String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](./solutions/FindAllAnagramsInAString/solution.cpp) | 2 strings,get all indices of p anagrams in s.sliding window |
