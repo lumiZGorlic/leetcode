@@ -14,10 +14,14 @@ Template
 
 
 
+
+
+
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./solutions/AddTwoNumbers/solution.cpp)| classic linked list |
+| 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./solutions/RomanToInteger/solution.py)| convert roman number to integer, use hash map |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](./solutions/3Sum/solution.cpp) | array of ints, find all unique triplets that sum to 0 |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [Python](./solutions/4Sum/solution.py) | array of ints, find all unique quadruplets that sum to given target, used set to avoid duplicate quadruplets |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./solutions/GenerateParentheses/solution.py)| generate all valid combinations, recursion |
@@ -113,6 +117,7 @@ Template
 | 453 | [Minimum Number Of Arrows To Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Python](./solutions/MinimumNumberOfArrowsToBurstBalloons/solution.py)| sort and greedy  |
 | 474 | [Ones And Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [C++](./solutions/OnesAndZeroes/solution.cpp) [Python](./solutions/OnesAndZeroes/solution.py)| given a set of binary strings. Pick as many as you can constraint being you end up with max total number of 0s m and 1s n, knapsack kind of in 2d, dp |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./solutions/TargetSum/solution.py)| given a sequence of ints, insert '+'s and '-'s to end up with target sum |
+| 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Python](./solutions/NextGreaterElementII/solution.py)| given circular array find next greater number for every element, use stack |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [C++](./solutions/LongestPalindromicSubsequence/solution.cpp) | classic dp |
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [C++](./solutions/CoinChange2/solution.cpp) | classic dp, the number of combinations that make up the amount |
 | 532 | [K Diff Pairs In An Array](https://leetcode.com/problems/k-diff-pairs-in-an-array/) |  [Python](./solutions/KDiffPairsInAnArray/solution.py)| find all unique pairs for which diff equals k |
