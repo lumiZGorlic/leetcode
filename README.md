@@ -88,7 +88,7 @@ Template
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Python](./solutions/MaximalSquare/solution.py)| binary matrix with 0's and 1's, find largest square made of 1's. use dp. |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./solutions/BasicCalculator/solution.py)| add, deduct and parenthesis |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](./solutions/InvertBinaryTree/solution.cpp)| |
-| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [C++](./solutions/BasicCalculatorII/solution.cpp) [Python](./solutions/BasicCalculator/solution.py)| add, deduct, multiply and divide, cool C++ |
+| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [C++](./solutions/BasicCalculatorII/solution.cpp) [Python](./solutions/BasicCalculatorII/solution.py)| add, deduct, multiply and divide, cool C++ |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./solutions/KthSmallestElementInABST/solution.py)| do in-order traversal while counting |
 | 232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./solutions/ImplementQueueUsingStacks/solution.cpp) | use one stack for input and one for output |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./solutions/ProductOfArrayExceptSelf/solution.cpp) | int array 'a' given, create a new array 'b' where b[i] = a[0] * a[1] * ... * a[i-1] * a[i+1] * ... * a[sz-1] |
