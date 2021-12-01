@@ -13,6 +13,7 @@ Template
 
 
 
+
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -25,6 +26,7 @@ Template
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./solutions/NextPermutation/solution.py)|  |
 | 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./solutions/SearchInRotatedSortedArray/solution.cpp)| binary search |
 | 34 | [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./solutions/FindFirstAndLastPositionOfElementInSortedArray/solution.py)| self descriptive, use bs |
+| 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Python](./solutions/SudokuSolver/solution.py)| backtracking |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./solutions/CombinationSum/solution.py)| given int array find combinations that sum up to target, unbound knapsack problem |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./solutions/FirstMissingPositive/solution.py)| move values around i.e. '1' to index 0, '5' to index '6' etc  |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./solutions/TrappingRainWater/solution.py)| classic, try also one pass solution |
@@ -84,7 +86,9 @@ Template
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [C++](./solutions/CourseScheduleII/solution.cpp)  | topological sort |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Python](./solutions/HouseRobberII/solution.py)| like a classic house robber but houses arranged in circle |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Python](./solutions/MaximalSquare/solution.py)| binary matrix with 0's and 1's, find largest square made of 1's. use dp. |
+| 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./solutions/BasicCalculator/solution.py)| add, deduct and parenthesis |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](./solutions/InvertBinaryTree/solution.cpp)| |
+| 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [C++](./solutions/BasicCalculatorII/solution.cpp) [Python](./solutions/BasicCalculator/solution.py)| add, deduct, multiply and divide, cool C++ |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./solutions/KthSmallestElementInABST/solution.py)| do in-order traversal while counting |
 | 232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./solutions/ImplementQueueUsingStacks/solution.cpp) | use one stack for input and one for output |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./solutions/ProductOfArrayExceptSelf/solution.cpp) | int array 'a' given, create a new array 'b' where b[i] = a[0] * a[1] * ... * a[i-1] * a[i+1] * ... * a[sz-1] |
