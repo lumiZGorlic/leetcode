@@ -13,6 +13,7 @@ Template
 
 
 
+
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -90,6 +91,7 @@ Template
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [C++](./solutions/BasicCalculatorII/solution.cpp) [Python](./solutions/BasicCalculatorII/solution.py)| add, deduct, multiply and divide, cool C++ |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./solutions/KthSmallestElementInABST/solution.py)| do in-order traversal while counting |
 | 232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./solutions/ImplementQueueUsingStacks/solution.cpp) | use one stack for input and one for output |
+| 236 | [Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](./solutions/LowestCommonAncestorOfABinaryTree/solution.cpp) [Python](./solutions/LowestCommonAncestorOfABinaryTree/solution.py)| as title, collect full paths to both nodes first and then easy solve, can be done easier |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./solutions/ProductOfArrayExceptSelf/solution.cpp) | int array 'a' given, create a new array 'b' where b[i] = a[0] * a[1] * ... * a[i-1] * a[i+1] * ... * a[sz-1] |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [C++](./solutions/MissingNumber/solution.cpp) | classic xor  |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./solutions/MoveZeroes/solution.cpp)| in the array move all 0s to the end  |
@@ -154,5 +156,6 @@ Template
 | 1937 | [Maximum Number Of Points With Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) | [C++](./solutions/MaximumNumberOfPointsWithCost/solution.cpp)| dp |
 | 1942 | [The Number Of The Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/) | [C++](./solutions/TheNumberOfTheSmallestUnoccupiedChair/solution.cpp)| numbered chairs taken/freed by arriving/leaving guests. What chair will be taken by a concrete guest. sort times. use hash map and heap. |
 | 2080 | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [C++](./solutions/RangeFrequencyQueries/solution.cpp) | query[l,r,v] to see how many files value v appears in the array between indexes l and r. binary search. |
+| 2096 | [Step By Step Directions From A Binary Tree Node To Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |  [Python](./solutions/StepByStepDirectionsFromABinaryTreeNodeToAnother/solution.py)| use lowest common ancestor solution |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
