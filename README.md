@@ -13,7 +13,6 @@ Template
 
 
 
-
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -100,6 +99,7 @@ Template
 | 297 | [Serialize And Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | [Python](./solutions/SerializeAndDeserializeBinaryTree/solution.py) [C++](./solutions/SerializeAndDeserializeBinaryTree/solution.cpp) | pre-order traversal works, not sure about formal proof, easy to see that post and in-order traversals not up to the task  |
 | 300 | [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/ ) | [C++](./solutions/LongestIncreasingSubsequence/solution.cpp) [Python](./solutions/LongestIncreasingSubsequence/solution.py)| C++ solution easy dp in O(N^2), Python a bit tricky in O(NlnN), matma |
 | 309 | [Best Time To Buy And Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Python](./solutions/BestTimeToBuyAndSellStockWithCooldown/solution.py) [C++](./solutions/BestTimeToBuyAndSellStockWithCooldown/solution.cpp)|  |
+| 315 | [Count Of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./solutions/CountOfSmallerNumbersAfterSelf/solution.cpp) [Python](./solutions/CountOfSmallerNumbersAfterSelf/solution.py)| merge sort solution  |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./solutions/CoinChange/solution.cpp) | classic dp, the fewest number of coins to make up the amount |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [C++](./solutions/WiggleSortII/solution.cpp) | Given an int array nums, reorder it such that nums[0] < nums[1] > nums[2] < nums[3].... |
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./solutions/IncreasingTripletSubsequence/solution.py) | |
@@ -118,6 +118,7 @@ Template
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Python](./solutions/SortCharactersByFrequency/solution.py)|  |
 | 453 | [Minimum Number Of Arrows To Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Python](./solutions/MinimumNumberOfArrowsToBurstBalloons/solution.py)| sort and greedy  |
 | 474 | [Ones And Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [C++](./solutions/OnesAndZeroes/solution.cpp) [Python](./solutions/OnesAndZeroes/solution.py)| given a set of binary strings. Pick as many as you can constraint being you end up with max total number of 0s m and 1s n, knapsack kind of in 2d, dp |
+| 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [C++](./solutions/ReversePairs/solution.cpp) | merge sort solution |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./solutions/TargetSum/solution.py)| given a sequence of ints, insert '+'s and '-'s to end up with target sum |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Python](./solutions/NextGreaterElementII/solution.py)| given circular array find next greater number for every element, use stack |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [C++](./solutions/LongestPalindromicSubsequence/solution.cpp) | classic dp |
@@ -144,15 +145,18 @@ Template
 | 969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./solutions/PancakeSorting/solution.py)| should be self descriptive |
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [C++](./solutions/SmallestStringStartingFromLeaf/solution.cpp) | dfs |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](./solutions/RottingOranges/solution.cpp) | matrix problem, to solve do simulation |
+| 996 | [Number Of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/) | [C++](./solutions/NumberOfSquarefulArrays/solution.cpp) | find array permutations that would result in squarefl array, brute force or kind of Hamiltonian problem |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [C++](./solutions/MaxConsecutiveOnesIII/solution.cpp) | binary array and we can flip at most k '0's. What's the longest sequence of '1' we can get. Special case also solved in cpp file - what if only one '0' can be flipped. Classic sliding window. |
 | 1081 | [Smallest Subsequence Of Distinct Characters](https://leetcode.com/problems/smallest-subsequence-of-distinct-characters/) | [Python](./solutions/SmallestSubsequenceOfDistinctCharacters/solution.py) | hashing and intuition |
 | 1124 | [Longest Well Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | [Python](./solutions/LongestWellPerformingInterval/solution.py)| binary array, find longest subarray with more 1s than 0s, hashing to solve in linear time |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](./solutions/LongestCommonSubsequence/solution.py)| two strings and find LCS, dp |
+| 1192 | [Critical Connections In A Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](./solutions/CriticalConnectionsInANetwork/solution.py) | removing what edges would result in disconnected graph. Tarjan's strongly connected components algorithm |
 | 1221 | [Split A String In Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [C++](./solutions/SplitAStringInBalancedStrings/solution.cpp) | split binary string in balanced substrings |
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) | [C++](./solutions/DesignALeaderboard/solution.cpp) | locked on lc, top K stocks on blmbrg interview, keep track of stocks traded and impement a function to print K most traded, hash map (to map stock to volume) and multimap (to map volume to stock) |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | [C++](./solutions/LongestHappyString/solution.cpp)| string composed only of 'a', 'b', 'c'. Cannot have triplets (e.g. 'bbb'). Can have at most a occurences of 'a', b of 'b', c of 'c'.Construct longest possible. Similar to 621 (Task Scheduler)|
 | 1488 | [Avoid Flood In The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [C++](./solutions/AvoidFloodInTheCity/solution.cpp) | info in solution file |
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | [C++](./solutions/PathWithMaximumProbability/solution.cpp)  | Dijkstra's algorithm |
+| 1584 | [Min Cost To Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./solutions/MinCostToConnectAllPoints/solution.py) | minimum spanning tree |
 | 1937 | [Maximum Number Of Points With Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) | [C++](./solutions/MaximumNumberOfPointsWithCost/solution.cpp)| dp |
 | 1942 | [The Number Of The Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/) | [C++](./solutions/TheNumberOfTheSmallestUnoccupiedChair/solution.cpp)| numbered chairs taken/freed by arriving/leaving guests. What chair will be taken by a concrete guest. sort times. use hash map and heap. |
 | 2080 | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [C++](./solutions/RangeFrequencyQueries/solution.cpp) | query[l,r,v] to see how many files value v appears in the array between indexes l and r. binary search. |
