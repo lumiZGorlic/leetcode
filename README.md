@@ -13,6 +13,7 @@ Template
 
 
 
+
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -135,10 +136,12 @@ Template
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](./solutions/MaximumLengthOfRepeatedSubarray/solution.py)| two arrays given, longest common subarray, dp  |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./solutions/DailyTemperatures/solution.py)| for each day find number of days to wait for warmer temperature, use stack |
 | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | [C++](./solutions/OpenTheLock/solution.cpp) | graph problem, bfs |
+| 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [C++](./solutions/ToeplitzMatrix/solution.cpp) | matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements |
 | 785 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [Python](./solutions/IsGraphBipartite/solution.py)| can nodes be split into two groups and every edge connects these two groups, bfs or dfs |
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Python](./solutions/CheapestFlightsWithinKStops/solution.py)| weighted graph given anf find the cheapest path from src to dst that has maximum K stops, dfs or bfs or other approaches |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./solutions/KokoEatingBananas/solution.cpp)| max speed that satisfies a specific condition, use binary search |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [C++](./solutions/StoneGame/solution.cpp)| dp |
+| 907 | [Sum Of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | [Python](./solutions/SumOfSubarrayMinimums/solution.py)| sum mins for all subarrays, use stack |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Python](./solutions/MinimumFallingPathSum/solution.py)| dp, similar to 1937 |
 | 934 | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | [Python](./solutions/ShortestBridge/solution.py)| grid with 2 islands, find the shortest bridge, bfs to expand island 1 until we hit island 2 |
 | 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | [Python](./solutions/PrisonCellsAfterNDays/solution.py) | cells become occupied or vacant, similar to bulbs, find cycle so we don't simulate it too many times |
@@ -161,5 +164,6 @@ Template
 | 1942 | [The Number Of The Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/) | [C++](./solutions/TheNumberOfTheSmallestUnoccupiedChair/solution.cpp)| numbered chairs taken/freed by arriving/leaving guests. What chair will be taken by a concrete guest. sort times. use hash map and heap. |
 | 2080 | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [C++](./solutions/RangeFrequencyQueries/solution.cpp) | query[l,r,v] to see how many files value v appears in the array between indexes l and r. binary search. |
 | 2096 | [Step By Step Directions From A Binary Tree Node To Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |  [Python](./solutions/StepByStepDirectionsFromABinaryTreeNodeToAnother/solution.py)| use lowest common ancestor solution |
+| 2104 | [Sum Of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) | [Python](./solutions/SumOfSubarrayRanges/solution.py)| almost same as Sum Of Subarray Minimums, one pass for min and one for max |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
