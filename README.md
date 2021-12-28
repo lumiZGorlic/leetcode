@@ -102,6 +102,7 @@ Template
 | 315 | [Count Of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./solutions/CountOfSmallerNumbersAfterSelf/solution.cpp) [Python](./solutions/CountOfSmallerNumbersAfterSelf/solution.py)| merge sort solution  |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./solutions/CoinChange/solution.cpp) | classic dp, the fewest number of coins to make up the amount |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [C++](./solutions/WiggleSortII/solution.cpp) | Given an int array nums, reorder it such that nums[0] < nums[1] > nums[2] < nums[3].... |
+| 327 | [Count Of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [Python](./solutions/CountOfRangeSum/solution.py)| Given an int array and two ints lower and upper, return the number of range sums that lie in [lower, upper] inclusive. Prefix sum + merge sort |
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./solutions/IncreasingTripletSubsequence/solution.py) | |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [C++](./solutions/HouseRobberIII/solution.cpp)| house robber in a binary tree |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./solutions/CountingBits/solution.cpp) | for a sequence of ints e.g 1,2,3,4,5 calculate mapping int - number of bits in binary representation  |
@@ -119,6 +120,7 @@ Template
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Python](./solutions/SortCharactersByFrequency/solution.py)|  |
 | 453 | [Minimum Number Of Arrows To Burst Balloons](https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/) | [Python](./solutions/MinimumNumberOfArrowsToBurstBalloons/solution.py)| sort and greedy  |
 | 460 | [LFU Cache](https://leetcode.com/problems/lfu-cache/) | [C++](./solutions/LFUCache/solution.cpp) [Python](./solutions/LFUCache/solution.py)| C++ solution optimal, Python stuff my more naive implementation |
+| 464 | [Can I Win](https://leetcode.com/problems/can-i-win/) | [C++](./solutions/CanIWin/solution.cpp) | game in which players alternate and take numbers from pool until a certain sum is reached, minimax with tt |
 | 474 | [Ones And Zeroes](https://leetcode.com/problems/ones-and-zeroes/) | [C++](./solutions/OnesAndZeroes/solution.cpp) [Python](./solutions/OnesAndZeroes/solution.py)| given a set of binary strings. Pick as many as you can constraint being you end up with max total number of 0s m and 1s n, knapsack kind of in 2d, dp |
 | 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [C++](./solutions/ReversePairs/solution.cpp) | merge sort solution |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./solutions/TargetSum/solution.py)| given a sequence of ints, insert '+'s and '-'s to end up with target sum |
@@ -164,6 +166,7 @@ Template
 | 1488 | [Avoid Flood In The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [C++](./solutions/AvoidFloodInTheCity/solution.cpp) | info in solution file |
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | [C++](./solutions/PathWithMaximumProbability/solution.cpp)  | Dijkstra's algorithm |
 | 1584 | [Min Cost To Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./solutions/MinCostToConnectAllPoints/solution.py) | minimum spanning tree |
+| 1685 | [Sum Of Absolute Differences In A Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | [Python](./solutions/SumOfAbsoluteDifferencesInASortedArray/solution.py)| for each element in array find sum of abs differences, use formula to do it in O(N) |
 | 1937 | [Maximum Number Of Points With Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) | [C++](./solutions/MaximumNumberOfPointsWithCost/solution.cpp)| dp |
 | 1942 | [The Number Of The Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/) | [C++](./solutions/TheNumberOfTheSmallestUnoccupiedChair/solution.cpp)| numbered chairs taken/freed by arriving/leaving guests. What chair will be taken by a concrete guest. sort times. use hash map and heap. |
 | 2080 | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [C++](./solutions/RangeFrequencyQueries/solution.cpp) | query[l,r,v] to see how many files value v appears in the array between indexes l and r. binary search. |
