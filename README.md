@@ -15,6 +15,8 @@ Template
 
 
 
+
+
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -96,6 +98,7 @@ Template
 | 236 | [Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](./solutions/LowestCommonAncestorOfABinaryTree/solution.cpp) [Python](./solutions/LowestCommonAncestorOfABinaryTree/solution.py)| as title, collect full paths to both nodes first and then easy solve, can be done easier |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./solutions/ProductOfArrayExceptSelf/solution.cpp) | int array 'a' given, create a new array 'b' where b[i] = a[0] * a[1] * ... * a[i-1] * a[i+1] * ... * a[sz-1] |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [C++](./solutions/MissingNumber/solution.cpp) | classic xor  |
+| 274 | [H-Index](https://leetcode.com/problems/h-index/) | [C++](./solutions/H-Index/solution.cpp) [Python](./solutions/H-Index/solution.py)| defiition of index h - if h of n papers have at least h citations each, and the other n − h papers have no more than h citations each. |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./solutions/MoveZeroes/solution.cpp)| in the array move all 0s to the end  |
 | 289 | [Game Of Life](https://leetcode.com/problems/game-of-life/) | [C++](./solutions/GameOfLife/solution.cpp) | Cellular automaton. The values in the grid are only '0' and '1' so to solve it can just use other bits |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | [Python](./solutions/NimGame/solution.py)| heap of stones, players can remove 1,2, or 3. To win, you need to take the last stone  |
@@ -143,6 +146,7 @@ Template
 | 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Python](./solutions/SubarrayProductLessThanK/solution.py) | find number of subarrays where the product of all the elements is less than given k, sliding window |
 | 714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](./solutions/BestTimeToBuyAndSellStockWithTransactionFee/solution.py)|  |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](./solutions/MaximumLengthOfRepeatedSubarray/solution.py)| two arrays given, longest common subarray, dp  |
+| 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [Python](./solutions/AsteroidCollision/solution.py)| classic stack problem with collisions |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./solutions/DailyTemperatures/solution.py)| for each day find number of days to wait for warmer temperature, use stack |
 | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | [C++](./solutions/OpenTheLock/solution.cpp) | graph problem, bfs |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [C++](./solutions/ToeplitzMatrix/solution.cpp) | matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements |
@@ -169,6 +173,7 @@ Template
 | 1192 | [Critical Connections In A Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](./solutions/CriticalConnectionsInANetwork/solution.py) | removing what edges would result in disconnected graph. Tarjan's strongly connected components algorithm |
 | 1221 | [Split A String In Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [C++](./solutions/SplitAStringInBalancedStrings/solution.cpp) | split binary string in balanced substrings |
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) | [C++](./solutions/DesignALeaderboard/solution.cpp) | locked on lc, top K stocks on blmbrg interview, keep track of stocks traded and impement a function to print K most traded, hash map (to map stock to volume) and multimap (to map volume to stock) |
+| 1247 | [Minimum Swaps To Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | [Python](./solutions/MinimumSwapsToMakeStringsEqual/solution.py)| two binary strings s1 and s2, can only swap chars between s1 and s2, minimum swaps to make them equal |
 | 1325 | [Delete Leaves With A Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | [C++](./solutions/DeleteLeavesWithAGivenValue/solution.cpp) | dfs |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | [C++](./solutions/LongestHappyString/solution.cpp)| string composed only of 'a', 'b', 'c'. Cannot have triplets (e.g. 'bbb'). Can have at most a occurences of 'a', b of 'b', c of 'c'.Construct longest possible. Similar to 621 (Task Scheduler)|
 | 1488 | [Avoid Flood In The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [C++](./solutions/AvoidFloodInTheCity/solution.cpp) | info in solution file |
