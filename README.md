@@ -11,9 +11,6 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 
-# TODO update scripts so folder created automatically and entries added to the file
-
-
 
 
 
@@ -175,6 +172,7 @@ Template
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) | [C++](./solutions/DesignALeaderboard/solution.cpp) | locked on lc, top K stocks on blmbrg interview, keep track of stocks traded and impement a function to print K most traded, hash map (to map stock to volume) and multimap (to map volume to stock) |
 | 1247 | [Minimum Swaps To Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | [Python](./solutions/MinimumSwapsToMakeStringsEqual/solution.py)| two binary strings s1 and s2, can only swap chars between s1 and s2, minimum swaps to make them equal |
 | 1325 | [Delete Leaves With A Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | [C++](./solutions/DeleteLeavesWithAGivenValue/solution.cpp) | dfs |
+| 1338 | [Reduce Array Size To The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [C++](./solutions/ReduceArraySizeToTheHalf/solution.cpp) | Choose a set of ints from array and remove all their occurrences. Return the minimum size of the set so that at least half of the integers of the array are removed. Sort + greedy. |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | [C++](./solutions/LongestHappyString/solution.cpp)| string composed only of 'a', 'b', 'c'. Cannot have triplets (e.g. 'bbb'). Can have at most a occurences of 'a', b of 'b', c of 'c'.Construct longest possible. Similar to 621 (Task Scheduler)|
 | 1488 | [Avoid Flood In The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [C++](./solutions/AvoidFloodInTheCity/solution.cpp) | info in solution file |
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | [C++](./solutions/PathWithMaximumProbability/solution.cpp)  | Dijkstra's algorithm |
@@ -186,5 +184,6 @@ Template
 | 2080 | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [C++](./solutions/RangeFrequencyQueries/solution.cpp) | query[l,r,v] to see how many files value v appears in the array between indexes l and r. binary search. |
 | 2096 | [Step By Step Directions From A Binary Tree Node To Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |  [Python](./solutions/StepByStepDirectionsFromABinaryTreeNodeToAnother/solution.py)| use lowest common ancestor solution |
 | 2104 | [Sum Of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) | [Python](./solutions/SumOfSubarrayRanges/solution.py)| almost same as Sum Of Subarray Minimums, one pass for min and one for max |
+| 2134 | [Minimum Swaps To Group All 1s Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | [Python](./solutions/MinimumSwapsToGroupAll1sTogetherII/solution.py)| Given a binary circular array nums, return the minimum number of swaps required to group all 1s present in the array together at any location. Sliding window. |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
