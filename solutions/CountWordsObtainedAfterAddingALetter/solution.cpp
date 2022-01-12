@@ -1,5 +1,5 @@
 // time complexity is O(N*26), my commented out solution below is O(N*M)
-// N - size of start words, M - start of target words
+// N - size of start words vector, M - size of target words vector
 class Solution {
 public:
     unordered_set<int> st;
