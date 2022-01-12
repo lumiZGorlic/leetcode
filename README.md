@@ -5,11 +5,10 @@ blablabla
 
 ## Problems & Solutions
 
-tags: matma, try also, cool python, cool c++, no number, tricky
+tags: matma, try also, cool python, cool c++, no number, tricky, string play,
 
 Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
-
 
 
 
@@ -185,5 +184,6 @@ Template
 | 2096 | [Step By Step Directions From A Binary Tree Node To Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |  [Python](./solutions/StepByStepDirectionsFromABinaryTreeNodeToAnother/solution.py)| use lowest common ancestor solution |
 | 2104 | [Sum Of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) | [Python](./solutions/SumOfSubarrayRanges/solution.py)| almost same as Sum Of Subarray Minimums, one pass for min and one for max |
 | 2134 | [Minimum Swaps To Group All 1s Together II](https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/) | [Python](./solutions/MinimumSwapsToGroupAll1sTogetherII/solution.py)| Given a binary circular array nums, return the minimum number of swaps required to group all 1s present in the array together at any location. Sliding window. |
+| 2135 | [Count Words Obtained After Adding A Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/) | [C++](./solutions/CountWordsObtainedAfterAddingALetter/solution.cpp) | add char and reshuffle to see if can arrive at other string, bitmask + hash map, try also sort and trie, string play |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
