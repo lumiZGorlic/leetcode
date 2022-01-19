@@ -13,7 +13,6 @@ Template
 
 
 
-
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -160,6 +159,7 @@ Template
 | 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | [Python](./solutions/PrisonCellsAfterNDays/solution.py) | cells become occupied or vacant, similar to bulbs, find cycle so we don't simulate it too many times |
 | 969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./solutions/PancakeSorting/solution.py)| should be self descriptive |
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [C++](./solutions/SmallestStringStartingFromLeaf/solution.cpp) | dfs |
+| 990 | [Satisfiability Of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [C++](./solutions/SatisfiabilityOfEqualityEquations/solution.cpp) | check if a set of equations with '!=' and '==' can be satisfied. classic dfs and union find |
 | 994 | [Rotting Oranges](https://leetcode.com/problems/rotting-oranges/) | [C++](./solutions/RottingOranges/solution.cpp) | matrix problem, to solve do simulation |
 | 996 | [Number Of Squareful Arrays](https://leetcode.com/problems/number-of-squareful-arrays/) | [C++](./solutions/NumberOfSquarefulArrays/solution.cpp) | find array permutations that would result in squarefl array, brute force or kind of Hamiltonian problem |
 | 1004 | [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/) | [C++](./solutions/MaxConsecutiveOnesIII/solution.cpp) | binary array and we can flip at most k '0's. What's the longest sequence of '1' we can get. Special case also solved in cpp file - what if only one '0' can be flipped. Classic sliding window. |
