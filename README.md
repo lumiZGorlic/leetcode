@@ -37,6 +37,7 @@ Template
 | 46 | [Permutations](https://leetcode.com/problems/permutations/) | [C++](./solutions/Permutations/solution.cpp) [Python](./solutions/Permutations/solution.py)| generate permutations, cool python |
 | 47 | [Permutations II](https://leetcode.com/problems/permutations-ii/) | [Python](./solutions/PermutationsII/solution.py)| generate permutations, input might contain duplicates |
 | 48 | [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Python](./solutions/RotateImage/solution.py)| 2d matrix rotate by 90 degrees. just come up with an index convention |
+| 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./solutions/GroupAnagrams/solution.py)| sort + hash, string play |
 | 50 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Python](./solutions/PowXn/solution.py)  |  |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./solutions/NQueens/solution.py)| classic n queens problem, backtracking |
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./solutions/MaximumSubarray/solution.cpp)  | find the contiguous subarray which has the largest sum |
@@ -49,6 +50,7 @@ Template
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](./solutions/Subsets/solution.cpp) [Python](./solutions/Subsets/solution.py)| get all the subsets, bitmasks or recursion |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./solutions/WordSearch/solution.py)| check if word is in a grid, dfs |
 | 84 | [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./solutions/LargestRectangleInHistogram/solution.py) [C++](./solutions/LargestRectangleInHistogram/solution.cpp) | classic stack  |
+| 91 | [Decode Ways](https://leetcode.com/problems/decode-ways/) | [Python](./solutions/DecodeWays/solution.py)| string with digits given, mapping is 'a' -> 1, 'b' -> 2, ... 'z' -> 26, return number of ways to decode the string, dp |
 | 93 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [Python](./solutions/RestoreIPAddresses/solution.py)| string with digits, return all possible ips that can be created by adding dots, backtracking |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./solutions/BinaryTreeInorderTraversal/solution.py)| iterative solutions |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./solutions/UniqueBinarySearchTrees/solution.py)| how many structurally unique BSTs can you build |
@@ -85,6 +87,7 @@ Template
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [C++](./solutions/BinaryTreeRightSideView/solution.cpp) [Python](./solutions/BinaryTreeRightSideView/solution.py)| dfs preorder traversal or bfs |
 | 200 | [Number Of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](./solutions/NumberOfIslands/solution.cpp)| count islands in a binary matrix |
 | 204 | [Count Primes](https://leetcode.com/problems/count-primes/) | [Python](./solutions/CountPrimes/solution.py) | Eratosthenes sieve |
+| 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [C++](./solutions/IsomorphicStrings/solution.cpp) [Python](./solutions/IsomorphicStrings/solution.py)| hash, string play |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](./solutions/CourseSchedule/solution.py)  | dfs |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [C++](./solutions/ImplementTriePrefixTree/solution.cpp)  | trie |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [C++](./solutions/CourseScheduleII/solution.cpp)  | topological sort |
