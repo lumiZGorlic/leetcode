@@ -83,6 +83,7 @@ Template
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | [C++](./solutions/LargestNumber/solution.cpp) [Python](./solutions/LargestNumber/solution.py)| array of non-negative ints give. Arrange themm so that they form largest number possible. Need a clever comparison operator |
 | 188 | [Best Time To Buy And Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [C++](./solutions/BestTimeToBuyAndSellStockIV/solution.cpp) [Python](./solutions/BestTimeToBuyAndSellStockIV/solution.py) | k transactions allowed |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./solutions/RotateArray/solution.cpp) |  |
+| 191 | [Number Of1 Bits](https://leetcode.com/problems/number-of-1-bits/) | [C++](./solutions/NumberOf1Bits/solution.cpp) | find number of bits set to '1' in a given var, solution in O(N) N - number of '1's |
 | 198 | [House Robber](https://leetcode.com/problems/house-robber/) | [C++](./solutions/HouseRobber/solution.cpp)| |
 | 199 | [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [C++](./solutions/BinaryTreeRightSideView/solution.cpp) [Python](./solutions/BinaryTreeRightSideView/solution.py)| dfs preorder traversal or bfs |
 | 200 | [Number Of Islands](https://leetcode.com/problems/number-of-islands/) | [C++](./solutions/NumberOfIslands/solution.cpp)| count islands in a binary matrix |
