@@ -94,7 +94,7 @@ Template
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [C++](./solutions/ImplementTriePrefixTree/solution.cpp)  | trie |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [C++](./solutions/CourseScheduleII/solution.cpp)  | topological sort |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Python](./solutions/HouseRobberII/solution.py)| like a classic house robber but houses arranged in circle |
-| 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [C++](./solutions/TheSkylineProblem/solution.cpp) [Python](./solutions/TheSkylineProblem/solution.py)| each building given as [leftX, rightX, height], return a set of points defining the skyline. use edges and heap |
+| 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [Python](./solutions/TheSkylineProblem/solution.py)| each building given as [leftX, rightX, height], return a set of points defining the skyline. use edges and heap |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Python](./solutions/MaximalSquare/solution.py)| binary matrix with 0's and 1's, find largest square made of 1's. use dp. |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./solutions/BasicCalculator/solution.py)| add, deduct and parenthesis |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](./solutions/InvertBinaryTree/solution.cpp)| |
