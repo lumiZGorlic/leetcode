@@ -74,7 +74,7 @@ TODO add tag 'graph' ??
 | 139 | [Word Break](https://leetcode.com/problems/word-break/) | [C++](./solutions/WordBreak/solution.cpp) | dp |
 | 140 | [Word Break II](https://leetcode.com/problems/word-break-ii/) | [Python](./solutions/WordBreakII/solution.py) | dp |
 | 141 | [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | [C++](./solutions/LinkedListCycle/solution.cpp)| classic, two pointers |
-| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](./solutions/LinkedListCycleII/solution.cpp)| Floyd's Tortoise and Hare Algorithm |
+| 142 | [Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | [C++](./solutions/LinkedListCycleII/solution.cpp)| Floyd's Tortoise and Hare cycle detection Algorithm |
 | 144 | [Binary Tree Preorder Traversal](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Python](./solutions/BinaryTreePreorderTraversal/solution.py)| just Inorder Traversal a bit modified  |
 | 146 | [LRU Cache](https://leetcode.com/problems/lru-cache/) | [C++](./solutions/LRUCache/solution.cpp)| |
 | 150 | [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [C++](./solutions/EvaluateReversePolishNotation/solution.cpp) [Python](./solutions/EvaluateReversePolishNotation/solution.py)| classic stack, cool c++ lambda |
@@ -109,6 +109,7 @@ TODO add tag 'graph' ??
 | 273 | [Integer To English Words](https://leetcode.com/problems/integer-to-english-words/) | [Python](./solutions/IntegerToEnglishWords/solution.py)| classic, recursion, try also word to integer |
 | 274 | [H-Index](https://leetcode.com/problems/h-index/) | [C++](./solutions/H-Index/solution.cpp) [Python](./solutions/H-Index/solution.py)| definition of index h - if h of n papers have at least h citations each, and the other n − h papers have no more than h citations each. |
 | 283 | [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | [C++](./solutions/MoveZeroes/solution.cpp)| in the array move all 0s to the end  |
+| 287 | [Find The Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/) | [C++](./solutions/FindTheDuplicateNumber/solution.cpp) [Python](./solutions/FindTheDuplicateNumber/solution.py)| array has n+1 elements and values between 1 and n (inclusive). Find repeating element using only const space and not modifying the array. bits and marking, try also Floyd's cycle detection  |
 | 289 | [Game Of Life](https://leetcode.com/problems/game-of-life/) | [C++](./solutions/GameOfLife/solution.cpp) | Cellular automaton. The values in the grid are only '0' and '1' so to solve it can just use other bits |
 | 292 | [Nim Game](https://leetcode.com/problems/nim-game/) | [Python](./solutions/NimGame/solution.py)| heap of stones, players can remove 1,2, or 3. To win, you need to take the last stone  |
 | 295 | [Find Median From Data Stream](https://leetcode.com/problems/find-median-from-data-stream/) | [C++](./solutions/FindMedianFromDataStream/solution.cpp) | two heaps and keep them balanced |
