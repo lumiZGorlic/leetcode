@@ -10,29 +10,27 @@
  * };
  */
 class Solution {
-    vector<vector<int>> ret;
 public:
-    void dfs(TreeNode* root, vector<int>& cur, int curSum){
-        curSum -= root->val;
-        cur.push_back(root->val);
+    vector<vector<int>> pathSum(TreeNode* root, int ts) {
+        if (!root) return {};
+        vector<vector<int>> ret;
 
-        if (!root->left && !root->right){
-            if (!curSum) ret.push_back(cur);
-            cur.pop_back();
-            return;
+        queue<tuple<TreeNode*, int, vector<int>>> q;
+        q.push({root, 0, {} });
+
+        while (!q.empty()){
+            auto p = q.front(); q.pop();
+
+            auto n = get<0>(p);
+            auto s = get<1>(p) + n->val;
+            auto v = get<2>(p); v.push_back(n->val);
+
+            if (n->left) q.push({n->left, s, v});
+            if (n->right) q.push({n->right, s, v});
+
+            if (!n->left && !n->right && s == ts) ret.push_back(v);
         }
 
-        if (root->left) dfs(root->left, cur, curSum);
-        if (root->right) dfs(root->right, cur, curSum);
-
-        curSum += root->val;
-        cur.pop_back();
-    }
-
-    vector<vector<int>> pathSum(TreeNode* root, int targetSum) {
-        if (!root) return {};
-        vector<int> cur;
-        dfs(root, cur, targetSum);
         return ret;
     }
 };

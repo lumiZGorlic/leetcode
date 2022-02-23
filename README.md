@@ -11,7 +11,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 
-
+TODO add tag 'graph' ??
 
 
 
@@ -57,7 +57,7 @@ Template
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./solutions/UniqueBinarySearchTrees/solution.py)| how many structurally unique BSTs can you build |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](./solutions/SymmetricTree/solution.cpp) [Python](./solutions/SymmetricTree/solution.py)| recursive and iterative |
 | 102 | [Binary Tree Level Order Traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./solutions/BinaryTreeLevelOrderTraversal/solution.cpp) [Python](./solutions/BinaryTreeLevelOrderTraversal/solution.py)| bfs or pre-order traversal |
-| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [C++](./solutions/PathSumII/solution.cpp) | fin all paths root to leaf that sum to given value. dfs |
+| 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [C++](./solutions/PathSumII/solution.cpp) [Python](./solutions/PathSumII/solution.py)| return all root-to-leaf paths where the sum equals targetSum. dfs or bfs |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Python](./solutions/DistinctSubsequences/solution.py)| two strings s and t, return the number of distinct subsequences of s which equals t, dp |
 | 118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./solutions/PascalsTriangle/solution.py)|  |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C](./solutions/BestTimeToBuyAndSellStock/solution.c)|  |
@@ -187,6 +187,7 @@ Template
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](./solutions/LongestCommonSubsequence/solution.py)| two strings and find LCS, dp |
 | 1192 | [Critical Connections In A Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](./solutions/CriticalConnectionsInANetwork/solution.py) | removing what edges would result in disconnected graph. Tarjan's strongly connected components algorithm |
 | 1221 | [Split A String In Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [C++](./solutions/SplitAStringInBalancedStrings/solution.cpp) | split binary string in balanced substrings |
+| 1222 | [Queens That Can Attack The King](https://leetcode.com/problems/queens-that-can-attack-the-king/) | [Python](./solutions/QueensThatCanAttackTheKing/solution.py)| given positions of king and queens, find queens that are attacking the king. solve by simulation. |
 | 1239 | [Maximum Length Of A Concatenated String With Unique Characters](https://leetcode.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/) | [C++](./solutions/MaximumLengthOfAConcatenatedStringWithUniqueCharacters/solution.cpp) | glue strings together, needs to have unique chars, dfs + bitmasks, string play |
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) | [C++](./solutions/DesignALeaderboard/solution.cpp) | locked on lc, top K stocks on blmbrg interview, keep track of stocks traded and impement a function to print K most traded, hash map (to map stock to volume) and multimap (to map volume to stock) |
 | 1247 | [Minimum Swaps To Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | [Python](./solutions/MinimumSwapsToMakeStringsEqual/solution.py)| two binary strings s1 and s2, can only swap chars between s1 and s2, minimum swaps to make them equal |
@@ -211,5 +212,7 @@ Template
 | 2135 | [Count Words Obtained After Adding A Letter](https://leetcode.com/problems/count-words-obtained-after-adding-a-letter/) | [C++](./solutions/CountWordsObtainedAfterAddingALetter/solution.cpp) | add char and reshuffle to see if can arrive at other string, bitmask + hash map, try also sort and trie, string play |
 | 2145 | [Count The Hidden Sequences](https://leetcode.com/problems/count-the-hidden-sequences/) | [Python](./solutions/CountTheHiddenSequences/solution.py)| given array of diffs between consecutive elements in a hidden array. Also given max and min element that can be in the hidden array. Find number of possible hidden arrays. matma |
 | 2163 | [Minimum Difference In Sums After Removal Of Elements](https://leetcode.com/problems/minimum-difference-in-sums-after-removal-of-elements/) | [C++](./solutions/MinimumDifferenceInSumsAfterRemovalOfElements/solution.cpp) | array has 3 * n ints, remove n elements to minimize left - right, left is sum of first n elements after removal, right is sum of last n. heap |
+| 2178 | [Maximum Split Of Positive Even Integers](https://leetcode.com/problems/maximum-split-of-positive-even-integers/) | [Python](./solutions/MaximumSplitOfPositiveEvenIntegers/solution.py)| Split a given int into a sum of a maximum number of unique positive even integers. greedy. |
+| 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | [C++](./solutions/ConstructStringWithRepeatLimit/solution.cpp) | given string s, reuse its chars and construct a new one lexicographically biggest. Limit on number of repetitions.  |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
