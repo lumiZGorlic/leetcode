@@ -21,6 +21,7 @@ TODO add tag 'graph' ??
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./solutions/AddTwoNumbers/solution.cpp)| classic linked list |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./solutions/LongestSubstringWithoutRepeatingCharacters/solution.cpp) | sliding window |
 | 4 | [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./solutions/MedianOfTwoSortedArrays/solution.cpp) | can just merge the arrays, try also other solution which is tricky |
+| 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](./solutions/RegularExpressionMatching/solution.py)| check if s matches p, special chars * and . recursion, try also dp |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./solutions/RomanToInteger/solution.py)| convert roman number to integer, use hash map |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](./solutions/3Sum/solution.cpp) | array of ints, find all unique triplets that sum to 0 |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [Python](./solutions/4Sum/solution.py) | array of ints, find all unique quadruplets that sum to given target, used set to avoid duplicate quadruplets |
