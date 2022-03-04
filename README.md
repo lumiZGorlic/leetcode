@@ -15,6 +15,8 @@ TODO add tag 'graph' ??
 
 
 
+
+
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -56,9 +58,11 @@ TODO add tag 'graph' ??
 | 93 | [Restore IP Addresses](https://leetcode.com/problems/restore-ip-addresses/) | [Python](./solutions/RestoreIPAddresses/solution.py)| string with digits, return all possible ips that can be created by adding dots, backtracking |
 | 94 | [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Python](./solutions/BinaryTreeInorderTraversal/solution.py)| iterative solutions |
 | 96 | [Unique Binary Search Trees](https://leetcode.com/problems/unique-binary-search-trees/) | [Python](./solutions/UniqueBinarySearchTrees/solution.py)| how many structurally unique BSTs can you build |
+| 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./solutions/ValidateBinarySearchTree/solution.py)| as title, dfs |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](./solutions/SymmetricTree/solution.cpp) [Python](./solutions/SymmetricTree/solution.py)| recursive and iterative |
 | 102 | [Binary Tree Level Order Traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./solutions/BinaryTreeLevelOrderTraversal/solution.cpp) [Python](./solutions/BinaryTreeLevelOrderTraversal/solution.py)| bfs or pre-order traversal |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [C++](./solutions/PathSumII/solution.cpp) [Python](./solutions/PathSumII/solution.py)| return all root-to-leaf paths where the sum equals targetSum. dfs or bfs |
+| 114 | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [C++](./solutions/FlattenBinaryTreeToLinkedList/solution.cpp) [Python](./solutions/FlattenBinaryTreeToLinkedList/solution.py)| as title  |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Python](./solutions/DistinctSubsequences/solution.py)| two strings s and t, return the number of distinct subsequences of s which equals t, dp |
 | 118 | [Pascals Triangle](https://leetcode.com/problems/pascals-triangle/) | [Python](./solutions/PascalsTriangle/solution.py)|  |
 | 121 | [Best Time To Buy And Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [C](./solutions/BestTimeToBuyAndSellStock/solution.c)|  |
@@ -106,6 +110,7 @@ TODO add tag 'graph' ??
 | 236 | [Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](./solutions/LowestCommonAncestorOfABinaryTree/solution.cpp) [Python](./solutions/LowestCommonAncestorOfABinaryTree/solution.py)| as title, collect full paths to both nodes first and then easy solve, can be done easier |
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./solutions/ProductOfArrayExceptSelf/solution.cpp) | int array 'a' given, create a new array 'b' where b[i] = a[0] * a[1] * ... * a[i-1] * a[i+1] * ... * a[sz-1] |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C++](./solutions/AddDigits/solution.cpp) [Python](./solutions/AddDigits/solution.py)| given int num, repeatedly add all its digits until the result has only one digit. can solve it by iteration, also solution in O(1) called digital root |
+| 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [C++](./solutions/UglyNumber/solution.cpp) | ugly number is a int whose prime factors are 2, 3, and 5. |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [C++](./solutions/MissingNumber/solution.cpp) | classic xor  |
 | 273 | [Integer To English Words](https://leetcode.com/problems/integer-to-english-words/) | [Python](./solutions/IntegerToEnglishWords/solution.py)| classic, recursion, try also word to integer |
 | 274 | [H-Index](https://leetcode.com/problems/h-index/) | [C++](./solutions/H-Index/solution.cpp) [Python](./solutions/H-Index/solution.py)| definition of index h - if h of n papers have at least h citations each, and the other n − h papers have no more than h citations each. |
@@ -134,6 +139,7 @@ TODO add tag 'graph' ??
 | 406 | [Queue Reconstruction By Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [C++](./solutions/QueueReconstructionByHeight/solution.cpp) [Python](./solutions/QueueReconstructionByHeight/solution.py)| array of pairs (person's height, person's position in the original queue) given. Reconstruct the queue based on the array. |
 | 413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [Python](./solutions/ArithmeticSlices/solution.py)| Gauss formula |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Python](./solutions/PartitionEqualSubsetSum/solution.py)| can split array into two that have same sum, dp knapsack problem |
+| 419 | [Battleships In A Board](https://leetcode.com/problems/battleships-in-a-board/) | [C++](./solutions/BattleshipsInABoard/solution.cpp) | 2d board has 1d ships. Count them in one pass without modifying the board and using O(1) extra space. identify upper left corners of ships |
 | 438 | [Find All Anagrams In A String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](./solutions/FindAllAnagramsInAString/solution.cpp) | 2 strings,get all indices of p anagrams in s.sliding window |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [C++](./solutions/AddTwoNumbersII/solution.cpp)| reverse linked list |
 | 450 | [Delete Node In A BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [C++](./solutions/DeleteNodeInABST/solution.cpp) [Python](./solutions/DeleteNodeInABST/solution.py)| dfs, find the node, if it has only left child - its easy, if it has both - find min value in the right child branch then easy |
@@ -169,6 +175,7 @@ TODO add tag 'graph' ??
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./solutions/KokoEatingBananas/solution.cpp)| max speed that satisfies a specific condition, use binary search |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [C++](./solutions/StoneGame/solution.cpp)| dp |
 | 907 | [Sum Of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | [Python](./solutions/SumOfSubarrayMinimums/solution.py)| sum mins for all subarrays, use stack |
+| 912 | [Sort An Array](https://leetcode.com/problems/sort-an-array/) | [C++](./solutions/SortAnArray/solution.cpp) [Python](./solutions/SortAnArray/solution.py)| implemet some classic sort algos, heap sort and quicksort |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Python](./solutions/MinimumFallingPathSum/solution.py)| dp, similar to 1937 |
 | 934 | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | [Python](./solutions/ShortestBridge/solution.py)| grid with 2 islands, find the shortest bridge, bfs to expand island 1 until we hit island 2 |
 | 954 | [Array Of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/) | [C++](./solutions/ArrayOfDoubledPairs/solution.cpp) [Python](./solutions/ArrayOfDoubledPairs/solution.py)| re-arrange array so that each value has a pair twice as big |
