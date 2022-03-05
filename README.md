@@ -10,9 +10,7 @@ tags: matma, try also, cool python, cool c++, no number, tricky, string play,
 Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
-
 TODO add tag 'graph' ??
-
 
 
 
@@ -51,6 +49,7 @@ TODO add tag 'graph' ??
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./solutions/Sqrtx/solution.py) | bs, try also Newton |
 | 74 | [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |  [Python](./solutions/SearchA2DMatrix/solution.py)| bs and mapping |
+| 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./solutions/MinimumWindowSubstring/solution.cpp) | two strings s and t, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. sliding window. |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](./solutions/Subsets/solution.cpp) [Python](./solutions/Subsets/solution.py)| get all the subsets, bitmasks or recursion |
 | 79 | [Word Search](https://leetcode.com/problems/word-search/) | [Python](./solutions/WordSearch/solution.py)| check if word is in a grid, dfs |
 | 84 | [Largest Rectangle In Histogram](https://leetcode.com/problems/largest-rectangle-in-histogram/) | [Python](./solutions/LargestRectangleInHistogram/solution.py) [C++](./solutions/LargestRectangleInHistogram/solution.cpp) | classic stack  |
@@ -71,6 +70,7 @@ TODO add tag 'graph' ??
 | 124 | [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [Python](./solutions/BinaryTreeMaximumPathSum/solution.py) | recursion |
 | 127 | [Word Ladder](https://leetcode.com/problems/word-ladder/) | [C++](./solutions/WordLadder/solution.cpp) | bidirectional bfs |
 | 128 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | [C++](./solutions/LongestConsecutiveSequence/solution.cpp) [Python](./solutions/LongestConsecutiveSequence/solution.py)| given unsorted array find the longest consecutive sequence (if the array was sorted)  |
+| 131 | [Palindrome Partitioning](https://leetcode.com/problems/palindrome-partitioning/) | [C++](./solutions/PalindromePartitioning/solution.cpp) [Python](./solutions/PalindromePartitioning/solution.py)| string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s. dp |
 | 133 | [Clone Graph](https://leetcode.com/problems/clone-graph/) | [C++](./solutions/CloneGraph/solution.cpp) | use recursion and hash map |
 | 134 | [Gas Station](https://leetcode.com/problems/gas-station/) | [C++](./solutions/GasStation/solution.cpp) | visiting a sequence of gas stations, where to start to complete the journey, greedy |
 | 136 | [Single Number](https://leetcode.com/problems/single-number/) | [C++](./solutions/SingleNumber/solution.cpp) | classic xor |
