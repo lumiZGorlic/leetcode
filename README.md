@@ -25,6 +25,7 @@ TODO add tag 'graph' ??
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./solutions/RomanToInteger/solution.py)| convert roman number to integer, use hash map |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](./solutions/3Sum/solution.cpp) | array of ints, find all unique triplets that sum to 0 |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [Python](./solutions/4Sum/solution.py) | array of ints, find all unique quadruplets that sum to given target, used set to avoid duplicate quadruplets |
+| 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C](./solutions/ValidParentheses/solution.c) [Python](./solutions/ValidParentheses/solution.py)| classic. stack. also assembly. |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./solutions/GenerateParentheses/solution.py)| generate all valid combinations, recursion |
 | 25 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./solutions/ReverseNodesInKGroup/solution.cpp) | linked list classic, can use recursion or an extra array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C](./solutions/ImplementStrStr/solution.c)| check if s1 is a substring of s2 |
@@ -169,8 +170,10 @@ TODO add tag 'graph' ??
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./solutions/DailyTemperatures/solution.py)| for each day find number of days to wait for warmer temperature, use stack |
 | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | [C++](./solutions/OpenTheLock/solution.cpp) | graph problem, bfs |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [C++](./solutions/ToeplitzMatrix/solution.cpp) | matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements |
+| 779 | [K Th Symbol In Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [C++](./solutions/KThSymbolInGrammar/solution.cpp) | start with 0, then in each round 0 turns into 01, 1 turns into 10, return Kth bit in Nth row, see pattern in tree and do recursion, try also one liner |
 | 785 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [Python](./solutions/IsGraphBipartite/solution.py)| can nodes be split into two groups and every edge connects these two groups, bfs or dfs |
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Python](./solutions/CheapestFlightsWithinKStops/solution.py)| weighted graph given anf find the cheapest path from src to dst that has maximum K stops, dfs or bfs or other approaches |
+| 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [C++](./solutions/ShortestPathVisitingAllNodes/solution.cpp) | given path return shortest path visiting all nodes, start at any node. cause not many nodes use bitmask and bfs |
 | 873 | [Length Of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | [Python](./solutions/LengthOfLongestFibonacciSubsequence/solution.py)| brute force, try also dp |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./solutions/KokoEatingBananas/solution.cpp)| max speed that satisfies a specific condition, use binary search |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [C++](./solutions/StoneGame/solution.cpp)| dp |
