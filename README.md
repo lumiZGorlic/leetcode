@@ -27,6 +27,7 @@ TODO add tag 'graph' ??
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [Python](./solutions/4Sum/solution.py) | array of ints, find all unique quadruplets that sum to given target, used set to avoid duplicate quadruplets |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C](./solutions/ValidParentheses/solution.c) [Python](./solutions/ValidParentheses/solution.py)| classic. stack. also assembly. |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./solutions/GenerateParentheses/solution.py)| generate all valid combinations, recursion |
+| 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./solutions/SwapNodesInPairs/solution.cpp) | swap nodes in linked list, play with pointers, good practise |
 | 25 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./solutions/ReverseNodesInKGroup/solution.cpp) | linked list classic, can use recursion or an extra array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C](./solutions/ImplementStrStr/solution.c)| check if s1 is a substring of s2 |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./solutions/NextPermutation/solution.py)|  |
