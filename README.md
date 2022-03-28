@@ -137,6 +137,7 @@ TODO add tag 'graph' ??
 | 375 | [Guess Number Higher Or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | [C++](./solutions/GuessNumberHigherOrLowerII/solution.cpp) | kind of minimax with transposition table/memoization |
 | 380 | [Insert Delete Get Random in O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [C++](./solutions/InsertDeleteGetRandomO1/solution.cpp) | class to insert values, delete and get random |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | [Python](./solutions/DecodeString/solution.py)| string encoded with ints, brackets and chars. use stack. |
+| 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | [Python](./solutions/RotateFunction/solution.py)| given array rotate it and calculate sum = arr0 * 0 + arr1 * 1 + ... , what rotation gives the biggest sum |
 | 403 | [Frog Jump](https://leetcode.com/problems/frog-jump/) | [Python](./solutions/FrogJump/solution.py)| array of ints gives mapping index to position, frog jumping, dp |
 | 406 | [Queue Reconstruction By Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [C++](./solutions/QueueReconstructionByHeight/solution.cpp) [Python](./solutions/QueueReconstructionByHeight/solution.py)| array of pairs (person's height, person's position in the original queue) given. Reconstruct the queue based on the array. |
 | 413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [Python](./solutions/ArithmeticSlices/solution.py)| Gauss formula |
@@ -168,6 +169,7 @@ TODO add tag 'graph' ??
 | 714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](./solutions/BestTimeToBuyAndSellStockWithTransactionFee/solution.py)|  |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](./solutions/MaximumLengthOfRepeatedSubarray/solution.py)| two arrays given, longest common subarray, dp  |
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [Python](./solutions/AsteroidCollision/solution.py)| classic stack problem with collisions |
+| 738 | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | [Python](./solutions/MonotoneIncreasingDigits/solution.py)| Int has monotone increasing digits if each pair of adjacent digits x and y satisfy x <= y. Given int n, return largest int less or equal to n that has this characteristic. |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./solutions/DailyTemperatures/solution.py)| for each day find number of days to wait for warmer temperature, use stack |
 | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | [C++](./solutions/OpenTheLock/solution.cpp) | graph problem, bfs |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [C++](./solutions/ToeplitzMatrix/solution.cpp) | matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements |
