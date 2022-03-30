@@ -47,6 +47,7 @@ TODO add tag 'graph' ??
 | 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./solutions/MaximumSubarray/solution.cpp)  | find the contiguous subarray which has the largest sum |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |  [Python](./solutions/SpiralMatrix/solution.py)| my solution with O(N) space, try also O(1) space  |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](./solutions/JumpGame/solution.py)| array of ints, each value max jump you can do from the current index, can you reach the last index |
+| 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | [C++](./solutions/PermutationSequence/solution.cpp) [Python](./solutions/PermutationSequence/solution.py)| basically directly find nth permutation |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./solutions/UniquePaths/solution.cpp)| dp |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./solutions/Sqrtx/solution.py) | bs, try also Newton |
@@ -171,6 +172,7 @@ TODO add tag 'graph' ??
 | 735 | [Asteroid Collision](https://leetcode.com/problems/asteroid-collision/) | [Python](./solutions/AsteroidCollision/solution.py)| classic stack problem with collisions |
 | 738 | [Monotone Increasing Digits](https://leetcode.com/problems/monotone-increasing-digits/) | [Python](./solutions/MonotoneIncreasingDigits/solution.py)| Int has monotone increasing digits if each pair of adjacent digits x and y satisfy x <= y. Given int n, return largest int less or equal to n that has this characteristic. |
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./solutions/DailyTemperatures/solution.py)| for each day find number of days to wait for warmer temperature, use stack |
+| 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [C++](./solutions/NetworkDelayTime/solution.cpp) [Python](./solutions/NetworkDelayTime/solution.py)| Dijkstra's algorithm |
 | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | [C++](./solutions/OpenTheLock/solution.cpp) | graph problem, bfs |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [C++](./solutions/ToeplitzMatrix/solution.cpp) | matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements |
 | 779 | [K Th Symbol In Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [C++](./solutions/KThSymbolInGrammar/solution.cpp) | start with 0, then in each round 0 turns into 01, 1 turns into 10, return Kth bit in Nth row, see pattern in tree and do recursion, try also one liner |
