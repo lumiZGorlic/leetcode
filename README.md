@@ -27,6 +27,7 @@ TODO add tag 'graph' ??
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [Python](./solutions/4Sum/solution.py) | array of ints, find all unique quadruplets that sum to given target, used set to avoid duplicate quadruplets |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C](./solutions/ValidParentheses/solution.c) [Python](./solutions/ValidParentheses/solution.py)| classic. stack. also assembly. |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./solutions/GenerateParentheses/solution.py)| generate all valid combinations, recursion |
+| 23 | [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) | [C++](./solutions/MergeKSortedLists/solution.cpp) | as title, use priority queue |
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./solutions/SwapNodesInPairs/solution.cpp) | swap nodes in linked list, play with pointers, good practise |
 | 25 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./solutions/ReverseNodesInKGroup/solution.cpp) | linked list classic, can use recursion or an extra array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C](./solutions/ImplementStrStr/solution.c)| check if s1 is a substring of s2 |
@@ -63,6 +64,7 @@ TODO add tag 'graph' ??
 | 98 | [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Python](./solutions/ValidateBinarySearchTree/solution.py)| as title, dfs |
 | 101 | [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | [C++](./solutions/SymmetricTree/solution.cpp) [Python](./solutions/SymmetricTree/solution.py)| recursive and iterative |
 | 102 | [Binary Tree Level Order Traversal ](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [C++](./solutions/BinaryTreeLevelOrderTraversal/solution.cpp) [Python](./solutions/BinaryTreeLevelOrderTraversal/solution.py)| bfs or pre-order traversal |
+| 104 | [Maximum Depth Of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [Python](./solutions/MaximumDepthOfBinaryTree/solution.py)| as title |
 | 113 | [Path Sum II](https://leetcode.com/problems/path-sum-ii/) | [C++](./solutions/PathSumII/solution.cpp) [Python](./solutions/PathSumII/solution.py)| return all root-to-leaf paths where the sum equals targetSum. dfs or bfs |
 | 114 | [Flatten Binary Tree To Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [C++](./solutions/FlattenBinaryTreeToLinkedList/solution.cpp) [Python](./solutions/FlattenBinaryTreeToLinkedList/solution.py)| as title  |
 | 115 | [Distinct Subsequences](https://leetcode.com/problems/distinct-subsequences/) | [Python](./solutions/DistinctSubsequences/solution.py)| two strings s and t, return the number of distinct subsequences of s which equals t, dp |
@@ -211,6 +213,7 @@ TODO add tag 'graph' ??
 | 1244 | [Design A Leaderboard](https://leetcode.com/problems/design-a-leaderboard/) | [C++](./solutions/DesignALeaderboard/solution.cpp) | locked on lc, top K stocks on blmbrg interview, keep track of stocks traded and impement a function to print K most traded, hash map (to map stock to volume) and multimap (to map volume to stock) |
 | 1247 | [Minimum Swaps To Make Strings Equal](https://leetcode.com/problems/minimum-swaps-to-make-strings-equal/) | [Python](./solutions/MinimumSwapsToMakeStringsEqual/solution.py)| two binary strings s1 and s2, can only swap chars between s1 and s2, minimum swaps to make them equal |
 | 1249 | [Minimum Remove To Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [C++](./solutions/MinimumRemoveToMakeValidParentheses/solution.cpp) | stack solution |
+| 1305 | [All Elements In Two Binary Search Trees](https://leetcode.com/problems/all-elements-in-two-binary-search-trees/) | [C++](./solutions/AllElementsInTwoBinarySearchTrees/solution.cpp) | in-order traversal and merge |
 | 1306 | [Jump Game III](https://leetcode.com/problems/jump-game-iii/) | [Python](./solutions/JumpGameIII/solution.py)| can jump by arr[i] left or right, can we reach any index with value 0. recursion. |
 | 1325 | [Delete Leaves With A Given Value](https://leetcode.com/problems/delete-leaves-with-a-given-value/) | [C++](./solutions/DeleteLeavesWithAGivenValue/solution.cpp) | dfs |
 | 1338 | [Reduce Array Size To The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [C++](./solutions/ReduceArraySizeToTheHalf/solution.cpp) | Choose a set of ints from array and remove all their occurrences. Return the minimum size of the set so that at least half of the integers of the array are removed. Sort + greedy. |
