@@ -31,6 +31,7 @@ TODO add tag 'graph' ??
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./solutions/SwapNodesInPairs/solution.cpp) | swap nodes in linked list, play with pointers, good practise |
 | 25 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./solutions/ReverseNodesInKGroup/solution.cpp) | linked list classic, can use recursion or an extra array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C](./solutions/ImplementStrStr/solution.c)| check if s1 is a substring of s2 |
+| 30 | [Substring With Concatenation Of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [C++](./solutions/SubstringWithConcatenationOfAllWords/solution.cpp) | within a string s find all concatenations of given set of strings of same size, two hash maps, try also sliding window |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./solutions/NextPermutation/solution.py)|  |
 | 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./solutions/SearchInRotatedSortedArray/solution.cpp)| binary search |
 | 34 | [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./solutions/FindFirstAndLastPositionOfElementInSortedArray/solution.py)| self descriptive, use bs |
@@ -192,6 +193,7 @@ TODO add tag 'graph' ??
 | 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | [Python](./solutions/PrisonCellsAfterNDays/solution.py) | cells become occupied or vacant, similar to bulbs, find cycle so we don't simulate it too many times |
 | 958 | [Check Completeness Of A Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Python](./solutions/CheckCompletenessOfABinaryTree/solution.py)| as title. bfs. |
 | 969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./solutions/PancakeSorting/solution.py)| should be self descriptive |
+| 973 | [K Closest Points To Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./solutions/KClosestPointsToOrigin/solution.py)| as title. sorting. |
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [C++](./solutions/SmallestStringStartingFromLeaf/solution.cpp) | dfs |
 | 990 | [Satisfiability Of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [C++](./solutions/SatisfiabilityOfEqualityEquations/solution.cpp) | check if a set of equations with '!=' and '==' can be satisfied. classic dfs and union find |
 | 992 | [Subarrays With K Different Integers](https://leetcode.com/problems/subarrays-with-k-different-integers/) | [Python](./solutions/SubarraysWithKDifferentIntegers/solution.py)| int array nums and int k given, return the number of good subarrays. in good array number of different ints is exactly k. sliding window |
