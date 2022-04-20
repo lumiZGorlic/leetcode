@@ -138,6 +138,7 @@ TODO add tag 'graph' ??
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./solutions/IncreasingTripletSubsequence/solution.py) | |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [C++](./solutions/HouseRobberIII/solution.cpp)| house robber in a binary tree |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./solutions/CountingBits/solution.cpp) | for a sequence of ints e.g 1,2,3,4,5 calculate mapping int - number of bits in binary representation  |
+| 342 | [Power Of Four](https://leetcode.com/problems/power-of-four/) | [C++](./solutions/PowerOfFour/solution.cpp) | check if given int is a power of 4, play with bits |
 | 348 | [Shuffle An Array](https://leetcode.com/problems/shuffle-an-array/) | [C++](./solutions/ShuffleAnArray/solution.cpp) | Fisher Yates Algorithm for random shuffling |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [C++](./solutions/RussianDollEnvelopes/solution.cpp) | kind of matryoshka problem with 2d envelopes. sort and then dp |
 | 375 | [Guess Number Higher Or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | [C++](./solutions/GuessNumberHigherOrLowerII/solution.cpp) | kind of minimax with transposition table/memoization |
@@ -168,6 +169,7 @@ TODO add tag 'graph' ??
 | 543 | [Diameter Of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | [C++](./solutions/DiameterOfBinaryTree/solution.cpp) | logest path between any two nodes. Solve it by finding depths of subtrees |
 | 560 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | [Python](./solutions/SubarraySumEqualsK/solution.py)| total number of continuous subarrays whose sum equals to k, use hashing |
 | 575 | [Distribute Candies](https://leetcode.com/problems/distribute-candies/) | [Python](./solutions/DistributeCandies/solution.py)| n candies given, can be of different types, take half and maximize number of different types |
+| 581 | [Shortest Unsorted Continuous Subarray](https://leetcode.com/problems/shortest-unsorted-continuous-subarray/) | [Python](./solutions/ShortestUnsortedContinuousSubarray/solution.py)| find the shortest subarray to sort to end up with the whole array sorted, sort or use monotonic stack |
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | [Python](./solutions/LongestHarmoniousSubsequence/solution.py)| a longest subsequence in which diff between min an max is exactly 1. hash map |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](./solutions/MergeTwoBinaryTrees/solution.cpp) | as title says |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./solutions/TaskScheduler/solution.py) [C++](./solutions/TaskScheduler/solution.cpp) | python solution with heap and C++ more direct |
