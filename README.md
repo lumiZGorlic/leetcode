@@ -118,6 +118,7 @@ TODO add tag 'graph' ??
 | 238 | [Product Of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | [C++](./solutions/ProductOfArrayExceptSelf/solution.cpp) | int array 'a' given, create a new array 'b' where b[i] = a[0] * a[1] * ... * a[i-1] * a[i+1] * ... * a[sz-1] |
 | 258 | [Add Digits](https://leetcode.com/problems/add-digits/) | [C++](./solutions/AddDigits/solution.cpp) [Python](./solutions/AddDigits/solution.py)| given int num, repeatedly add all its digits until the result has only one digit. can solve it by iteration, also solution in O(1) called digital root |
 | 263 | [Ugly Number](https://leetcode.com/problems/ugly-number/) | [C++](./solutions/UglyNumber/solution.cpp) | ugly number is a int whose prime factors are 2, 3, and 5. |
+| 264 | [Ugly Number II](https://leetcode.com/problems/ugly-number-ii/) | [C++](./solutions/UglyNumberII/solution.cpp) [Python](./solutions/UglyNumberII/solution.py)| find nth ugly number (that divides only by 2 3 and 5), dp |
 | 268 | [Missing Number](https://leetcode.com/problems/missing-number/) | [C++](./solutions/MissingNumber/solution.cpp) | classic xor  |
 | 273 | [Integer To English Words](https://leetcode.com/problems/integer-to-english-words/) | [Python](./solutions/IntegerToEnglishWords/solution.py)| classic, recursion, try also word to integer |
 | 274 | [H-Index](https://leetcode.com/problems/h-index/) | [C++](./solutions/H-Index/solution.cpp) [Python](./solutions/H-Index/solution.py)| definition of index h - if h of n papers have at least h citations each, and the other n − h papers have no more than h citations each. |
@@ -133,6 +134,7 @@ TODO add tag 'graph' ??
 | 315 | [Count Of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./solutions/CountOfSmallerNumbersAfterSelf/solution.cpp) [Python](./solutions/CountOfSmallerNumbersAfterSelf/solution.py)| merge sort solution  |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./solutions/CoinChange/solution.cpp) | classic dp, the fewest number of coins to make up the amount |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [C++](./solutions/WiggleSortII/solution.cpp) | Given an int array nums, reorder it such that nums[0] < nums[1] > nums[2] < nums[3].... |
+| 326 | [Power Of Three](https://leetcode.com/problems/power-of-three/) | [C++](./solutions/PowerOfThree/solution.cpp) | check if a given int is a power of 3  |
 | 327 | [Count Of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [Python](./solutions/CountOfRangeSum/solution.py)| Given an int array and two ints lower and upper, return the number of range sums that lie in [lower, upper] inclusive. Prefix sum + merge sort |
 | 329 | [Longest Increasing Path In A Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Python](./solutions/LongestIncreasingPathInAMatrix/solution.py)| dfs with memiozation, try also topological sort |
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./solutions/IncreasingTripletSubsequence/solution.py) | |
