@@ -31,6 +31,7 @@ TODO add tag 'graph' ??
 | 24 | [Swap Nodes In Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | [C++](./solutions/SwapNodesInPairs/solution.cpp) | swap nodes in linked list, play with pointers, good practise |
 | 25 | [Reverse Nodes In K-Group](https://leetcode.com/problems/reverse-nodes-in-k-group/) | [C++](./solutions/ReverseNodesInKGroup/solution.cpp) | linked list classic, can use recursion or an extra array |
 | 28 | [Implement strStr()](https://leetcode.com/problems/implement-strstr/) | [C](./solutions/ImplementStrStr/solution.c)| check if s1 is a substring of s2 |
+| 29 | [Divide Two Integers](https://leetcode.com/problems/divide-two-integers/) | [C++](./solutions/DivideTwoIntegers/solution.cpp) | as title, trick with bits |
 | 30 | [Substring With Concatenation Of All Words](https://leetcode.com/problems/substring-with-concatenation-of-all-words/) | [C++](./solutions/SubstringWithConcatenationOfAllWords/solution.cpp) | within a string s find all concatenations of given set of strings of same size, two hash maps, try also sliding window |
 | 31 | [Next Permutation](https://leetcode.com/problems/next-permutation/) | [Python](./solutions/NextPermutation/solution.py)|  |
 | 33 | [Search In Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [C++](./solutions/SearchInRotatedSortedArray/solution.cpp)| binary search |
