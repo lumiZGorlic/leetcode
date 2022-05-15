@@ -38,6 +38,7 @@ TODO add tag 'graph' ??
 | 34 | [Find First And Last Position Of Element In Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Python](./solutions/FindFirstAndLastPositionOfElementInSortedArray/solution.py)| self descriptive, use bs |
 | 37 | [Sudoku Solver](https://leetcode.com/problems/sudoku-solver/) | [Python](./solutions/SudokuSolver/solution.py)| backtracking |
 | 39 | [Combination Sum](https://leetcode.com/problems/combination-sum/) | [Python](./solutions/CombinationSum/solution.py)| given int array find combinations that sum up to target, unbound knapsack problem |
+| 40 | [Combination Sum II](https://leetcode.com/problems/combination-sum-ii/) | [Python](./solutions/CombinationSumII/solution.py)| Given array of ints and target, find all unique combinations that sum to target. Each number in candidates may only be used once in the combination. Used tuple, try also without tuple. |
 | 41 | [First Missing Positive](https://leetcode.com/problems/first-missing-positive/) | [Python](./solutions/FirstMissingPositive/solution.py)| move values around i.e. '1' to index 0, '5' to index '6' etc  |
 | 42 | [Trapping Rain Water](https://leetcode.com/problems/trapping-rain-water/) | [Python](./solutions/TrappingRainWater/solution.py)| classic, try also one pass solution |
 | 45 | [Jump Game II](https://leetcode.com/problems/jump-game-ii/) | [C++](./solutions/JumpGameII/solution.cpp)| same as 55 but here need to find out min number of jumps |
@@ -51,6 +52,7 @@ TODO add tag 'graph' ??
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |  [Python](./solutions/SpiralMatrix/solution.py)| my solution with O(N) space, try also O(1) space  |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](./solutions/JumpGame/solution.py)| array of ints, each value max jump you can do from the current index, can you reach the last index |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | [C++](./solutions/PermutationSequence/solution.cpp) [Python](./solutions/PermutationSequence/solution.py)| basically directly find nth permutation |
+| 61 | [Rotate List](https://leetcode.com/problems/rotate-list/) | [C++](./solutions/RotateList/solution.cpp) | rotate linked list by k places |
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./solutions/UniquePaths/solution.cpp)| dp |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./solutions/Sqrtx/solution.py) | bs, try also Newton |
@@ -109,6 +111,7 @@ TODO add tag 'graph' ??
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [C++](./solutions/ImplementTriePrefixTree/solution.cpp)  | trie |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [C++](./solutions/CourseScheduleII/solution.cpp)  | topological sort |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Python](./solutions/HouseRobberII/solution.py)| like a classic house robber but houses arranged in circle |
+| 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Python](./solutions/CombinationSumIII/solution.py)| Find all valid combinations of k numbers that sum up to n. Only nums 1-9 can be used, and each num used at most once. |
 | 218 | [The Skyline Problem](https://leetcode.com/problems/the-skyline-problem/) | [Python](./solutions/TheSkylineProblem/solution.py)| each building given as [leftX, rightX, height], return a set of points defining the skyline. use edges and heap |
 | 221 | [Maximal Square](https://leetcode.com/problems/maximal-square/) | [Python](./solutions/MaximalSquare/solution.py)| binary matrix with 0's and 1's, find largest square made of 1's. use dp. |
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./solutions/BasicCalculator/solution.py)| add, deduct and parenthesis |
@@ -180,6 +183,7 @@ TODO add tag 'graph' ??
 | 594 | [Longest Harmonious Subsequence](https://leetcode.com/problems/longest-harmonious-subsequence/) | [Python](./solutions/LongestHarmoniousSubsequence/solution.py)| a longest subsequence in which diff between min an max is exactly 1. hash map |
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](./solutions/MergeTwoBinaryTrees/solution.cpp) | as title says |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./solutions/TaskScheduler/solution.py) [C++](./solutions/TaskScheduler/solution.cpp) | python solution with heap and C++ more direct |
+| 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [C++](./solutions/CourseScheduleIII/solution.cpp) | Each course has duration and deadline. Cannot do 2 courses at the same time. What's the max number that can be taken. Sort and then heap. |
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [C++](./solutions/RedundantConnection/solution.cpp) [Python](./solutions/RedundantConnection/solution.py)| build graph one edge at a time. Other solution brute force  |
 | 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Python](./solutions/SubarrayProductLessThanK/solution.py) | find number of subarrays where the product of all the elements is less than given k, sliding window |
 | 714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](./solutions/BestTimeToBuyAndSellStockWithTransactionFee/solution.py)|  |
@@ -189,6 +193,7 @@ TODO add tag 'graph' ??
 | 739 | [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/) | [Python](./solutions/DailyTemperatures/solution.py)| for each day find number of days to wait for warmer temperature, use stack |
 | 743 | [Network Delay Time](https://leetcode.com/problems/network-delay-time/) | [C++](./solutions/NetworkDelayTime/solution.cpp) [Python](./solutions/NetworkDelayTime/solution.py)| Dijkstra's algorithm |
 | 752 | [Open The Lock](https://leetcode.com/problems/open-the-lock/) | [C++](./solutions/OpenTheLock/solution.cpp) | graph problem, bfs |
+| 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Python](./solutions/CouplesHoldingHands/solution.py)| Swap nums so that couples sit side by side. greedy, try also graph decomposition or union find. |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [C++](./solutions/ToeplitzMatrix/solution.cpp) | matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements |
 | 779 | [K Th Symbol In Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [C++](./solutions/KThSymbolInGrammar/solution.cpp) | start with 0, then in each round 0 turns into 01, 1 turns into 10, return Kth bit in Nth row, see pattern in tree and do recursion, try also one liner |
 | 785 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [Python](./solutions/IsGraphBipartite/solution.py)| can nodes be split into two groups and every edge connects these two groups, bfs or dfs |
@@ -260,5 +265,6 @@ TODO add tag 'graph' ??
 | 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | [C++](./solutions/ConstructStringWithRepeatLimit/solution.cpp) | given string s, reuse its chars and construct a new one lexicographically biggest. Limit on number of repetitions.  |
 | 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | [C++](./solutions/AppendKIntegersWithMinimalSum/solution.cpp) | given int array nums and an int k. Append k unique positive ints that do not appear in nums so that the resulting total sum is minimum. sort and Gauss formula. |
 | 2203 | [Minimum Weighted Subgraph With The Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/) | [C++](./solutions/MinimumWeightedSubgraphWithTheRequiredPaths/solution.cpp) | directed graph, nodes src1 src2 dest given, find minimum weight of a subgraph in which it's possible to reach dest from both src1 and src2, Dijkstra |
+| 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | [C++](./solutions/LargestCombinationWithBitwiseANDGreaterThanZero/solution.cpp) | Given int array arr return size of largest combination of vals with a bitwise AND greater than 0. Iterate over 32 bits and nested loop over array |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
