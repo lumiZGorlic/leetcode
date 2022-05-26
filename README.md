@@ -15,6 +15,7 @@ TODO add tag 'graph' ??
 
 
 
+
 | # | Title | Solution | Comments |
 |---| ----- | -------- | --------------------- |
 | 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | [C++](./solutions/TwoSum/solution.cpp) | hash map, two pointers. Note that this is a special case (exactly one solution exists). So hash map works fine. In a general case sort + two pointers would work.  |
@@ -143,6 +144,7 @@ TODO add tag 'graph' ??
 | 326 | [Power Of Three](https://leetcode.com/problems/power-of-three/) | [C++](./solutions/PowerOfThree/solution.cpp) | check if a given int is a power of 3  |
 | 327 | [Count Of Range Sum](https://leetcode.com/problems/count-of-range-sum/) | [Python](./solutions/CountOfRangeSum/solution.py)| Given an int array and two ints lower and upper, return the number of range sums that lie in [lower, upper] inclusive. Prefix sum + merge sort |
 | 329 | [Longest Increasing Path In A Matrix](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Python](./solutions/LongestIncreasingPathInAMatrix/solution.py)| dfs with memiozation, try also topological sort |
+| 332 | [Reconstruct Itinerary](https://leetcode.com/problems/reconstruct-itinerary/) | [C++](./solutions/ReconstructItinerary/solution.cpp) [Python](./solutions/ReconstructItinerary/solution.py)| given a list of tickets reconstruct an itinerary. Eulerian path. Greedy dfs, build path backwards |
 | 334 | [Increasing Triplet Subsequence](https://leetcode.com/problems/increasing-triplet-subsequence/) | [Python](./solutions/IncreasingTripletSubsequence/solution.py) | |
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [C++](./solutions/HouseRobberIII/solution.cpp)| house robber in a binary tree |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./solutions/CountingBits/solution.cpp) | for a sequence of ints e.g 1,2,3,4,5 calculate mapping int - number of bits in binary representation  |
@@ -155,6 +157,7 @@ TODO add tag 'graph' ??
 | 396 | [Rotate Function](https://leetcode.com/problems/rotate-function/) | [Python](./solutions/RotateFunction/solution.py)| given array rotate it and calculate sum = arr0 * 0 + arr1 * 1 + ... , what rotation gives the biggest sum |
 | 403 | [Frog Jump](https://leetcode.com/problems/frog-jump/) | [Python](./solutions/FrogJump/solution.py)| array of ints gives mapping index to position, frog jumping, dp |
 | 406 | [Queue Reconstruction By Height](https://leetcode.com/problems/queue-reconstruction-by-height/) | [C++](./solutions/QueueReconstructionByHeight/solution.cpp) [Python](./solutions/QueueReconstructionByHeight/solution.py)| array of pairs (person's height, person's position in the original queue) given. Reconstruct the queue based on the array. |
+| 407 | [Trapping Rain Water II](https://leetcode.com/problems/trapping-rain-water-ii/) | [C++](./solutions/TrappingRainWaterII/solution.cpp) | classic in 3D. bfs with heap |
 | 413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [Python](./solutions/ArithmeticSlices/solution.py)| Gauss formula |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Python](./solutions/PartitionEqualSubsetSum/solution.py)| can split array into two that have same sum, dp knapsack problem |
 | 419 | [Battleships In A Board](https://leetcode.com/problems/battleships-in-a-board/) | [C++](./solutions/BattleshipsInABoard/solution.cpp) | 2d board has 1d ships. Count them in one pass without modifying the board and using O(1) extra space. identify upper left corners of ships |
@@ -265,6 +268,7 @@ TODO add tag 'graph' ??
 | 2182 | [Construct String With Repeat Limit](https://leetcode.com/problems/construct-string-with-repeat-limit/) | [C++](./solutions/ConstructStringWithRepeatLimit/solution.cpp) | given string s, reuse its chars and construct a new one lexicographically biggest. Limit on number of repetitions.  |
 | 2195 | [Append K Integers With Minimal Sum](https://leetcode.com/problems/append-k-integers-with-minimal-sum/) | [C++](./solutions/AppendKIntegersWithMinimalSum/solution.cpp) | given int array nums and an int k. Append k unique positive ints that do not appear in nums so that the resulting total sum is minimum. sort and Gauss formula. |
 | 2203 | [Minimum Weighted Subgraph With The Required Paths](https://leetcode.com/problems/minimum-weighted-subgraph-with-the-required-paths/) | [C++](./solutions/MinimumWeightedSubgraphWithTheRequiredPaths/solution.cpp) | directed graph, nodes src1 src2 dest given, find minimum weight of a subgraph in which it's possible to reach dest from both src1 and src2, Dijkstra |
+| 2272 | [Substring With Largest Variance](https://leetcode.com/problems/substring-with-largest-variance/) | [C++](./solutions/SubstringWithLargestVariance/solution.cpp) | as title. for each pair of chars run modified Kanane algo for finding subarray with largest sum |
 | 2275 | [Largest Combination With Bitwise AND Greater Than Zero](https://leetcode.com/problems/largest-combination-with-bitwise-and-greater-than-zero/) | [C++](./solutions/LargestCombinationWithBitwiseANDGreaterThanZero/solution.cpp) | Given int array arr return size of largest combination of vals with a bitwise AND greater than 0. Iterate over 32 bits and nested loop over array |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
