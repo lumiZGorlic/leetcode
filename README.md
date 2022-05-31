@@ -251,6 +251,7 @@ TODO add tag 'graph' ??
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | [C++](./solutions/PathWithMaximumProbability/solution.cpp)  | Dijkstra's algorithm |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | [C++](./solutions/ShuffleString/solution.cpp) | shuffle string according to the mapping given |
 | 1584 | [Min Cost To Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./solutions/MinCostToConnectAllPoints/solution.py) | minimum spanning tree |
+| 1643 | [Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/) | [C++](./solutions/KthSmallestInstructions/solution.cpp) [Python](./solutions/KthSmallestInstructions/solution.py)| combinations with duplicates |
 | 1685 | [Sum Of Absolute Differences In A Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | [Python](./solutions/SumOfAbsoluteDifferencesInASortedArray/solution.py)| for each element in array find sum of abs differences, use formula to do it in O(N) |
 | 1705 | [Maximum Number Of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/) | [C++](./solutions/MaximumNumberOfEatenApples/solution.cpp) | each day apples grow and rot, how many can we eat, heap |
 | 1726 | [Tuple With Same Product](https://leetcode.com/problems/tuple-with-same-product/) | [C++](./solutions/TupleWithSameProduct/solution.cpp) | array of distinct positive ints, find all tuples a,b,c,d such that ab=cd |
