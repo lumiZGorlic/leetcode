@@ -57,6 +57,7 @@ TODO add tag 'graph' ??
 | 62 | [Unique Paths](https://leetcode.com/problems/unique-paths/) | [C++](./solutions/UniquePaths/solution.cpp)| dp |
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./solutions/Sqrtx/solution.py) | bs, try also Newton |
+| 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./solutions/ClimbingStairs/solution.py)| Need to reach nth step. Can climb 1 or 2 steps at a time. What's the number of ways to do it. Fibonacci |
 | 74 | [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |  [Python](./solutions/SearchA2DMatrix/solution.py)| bs and mapping |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./solutions/MinimumWindowSubstring/solution.cpp) | two strings s and t, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. sliding window. |
 | 78 | [Subsets](https://leetcode.com/problems/subsets/) | [C++](./solutions/Subsets/solution.cpp) [Python](./solutions/Subsets/solution.py)| get all the subsets, bitmasks or recursion |
