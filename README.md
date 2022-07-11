@@ -49,7 +49,7 @@ TODO add tag 'graph' ??
 | 49 | [Group Anagrams](https://leetcode.com/problems/group-anagrams/) | [Python](./solutions/GroupAnagrams/solution.py)| sort + hash, string play |
 | 50 | [Pow(x,n)](https://leetcode.com/problems/powx-n/) | [Python](./solutions/PowXn/solution.py)  |  |
 | 51 | [N-Queens](https://leetcode.com/problems/n-queens/) | [Python](./solutions/NQueens/solution.py)| classic n queens problem, backtracking |
-| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./solutions/MaximumSubarray/solution.cpp)  | find the contiguous subarray which has the largest sum |
+| 53 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [C++](./solutions/MaximumSubarray/solution.cpp)  | find the contiguous subarray which has the largest sum. Kadane algo. |
 | 54 | [Spiral Matrix](https://leetcode.com/problems/spiral-matrix/) |  [Python](./solutions/SpiralMatrix/solution.py)| my solution with O(N) space, try also O(1) space  |
 | 55 | [Jump Game](https://leetcode.com/problems/jump-game/) | [Python](./solutions/JumpGame/solution.py)| array of ints, each value max jump you can do from the current index, can you reach the last index |
 | 60 | [Permutation Sequence](https://leetcode.com/problems/permutation-sequence/) | [C++](./solutions/PermutationSequence/solution.cpp) [Python](./solutions/PermutationSequence/solution.py)| basically directly find nth permutation |
@@ -209,6 +209,7 @@ TODO add tag 'graph' ??
 | 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [C++](./solutions/ShortestPathVisitingAllNodes/solution.cpp) | given path return shortest path visiting all nodes, start at any node. cause not many nodes use bitmask and bfs |
 | 854 | [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/) | [C++](./solutions/K-SimilarStrings/solution.cpp) [Python](./solutions/K-SimilarStrings/solution.py)| A and B are anagrams, find min number of swaps in A to make it equal to B, backtracking or BFS |
 | 862 | [Shortest Subarray With Sum At Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Python](./solutions/ShortestSubarrayWithSumAtLeastK/solution.py)| Given int array nums and int k, return the length of the shortest non-empty subarray of nums with a sum of at least k. Monotone queue |
+| 871 | [Minimum Number Of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [C++](./solutions/MinimumNumberOfRefuelingStops/solution.cpp) | kind of jump game, heap or dp |
 | 873 | [Length Of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | [Python](./solutions/LengthOfLongestFibonacciSubsequence/solution.py)| brute force, try also dp |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./solutions/KokoEatingBananas/solution.cpp)| max speed that satisfies a specific condition, use binary search |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [C++](./solutions/StoneGame/solution.cpp)| dp |
@@ -236,6 +237,7 @@ TODO add tag 'graph' ??
 | 1110 | [Delete Nodes And Return Forest](https://leetcode.com/problems/delete-nodes-and-return-forest/) | [C++](./solutions/DeleteNodesAndReturnForest/solution.cpp) | dfs |
 | 1124 | [Longest Well Performing Interval](https://leetcode.com/problems/longest-well-performing-interval/) | [Python](./solutions/LongestWellPerformingInterval/solution.py)| binary array, find longest subarray with more 1s than 0s, hashing to solve in linear time |
 | 1143 | [Longest Common Subsequence](https://leetcode.com/problems/longest-common-subsequence/) | [Python](./solutions/LongestCommonSubsequence/solution.py)| two strings and find LCS, dp |
+| 1186 | [Maximum Subarray Sum With One Deletion](https://leetcode.com/problems/maximum-subarray-sum-with-one-deletion/) | [Python](./solutions/MaximumSubarraySumWithOneDeletion/solution.py)| Kadane algo twice - one forward and one backward |
 | 1192 | [Critical Connections In A Network](https://leetcode.com/problems/critical-connections-in-a-network/) | [Python](./solutions/CriticalConnectionsInANetwork/solution.py) | removing what edges would result in disconnected graph. Tarjan's strongly connected components algorithm |
 | 1209 | [Remove All Adjacent Duplicates In String II](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [C++](./solutions/RemoveAllAdjacentDuplicatesInStringII/solution.cpp) | given string s and int k, do all k duplicate removals, stack |
 | 1221 | [Split A String In Balanced Strings](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [C++](./solutions/SplitAStringInBalancedStrings/solution.cpp) | split binary string in balanced substrings |
