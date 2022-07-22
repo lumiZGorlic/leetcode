@@ -100,6 +100,7 @@ TODO add tag 'graph' ??
 | 155 | [Min Stack](https://leetcode.com/problems/min-stack/)| [C++](./solutions/MinStack/solution.cpp) | classic, with a trick we can use just one stack |
 | 169 | [Majority Element](https://leetcode.com/problems/majority-element/) | [C++](./solutions/MajorityElement/solution.cpp)| Boyer–Moore majority vote algorithm |
 | 173 | [Binary Search Tree Iterator](https://leetcode.com/problems/binary-search-tree-iterator/) | [C++](./solutions/BinarySearchTreeIterator/solution.cpp) [Python](./solutions/BinarySearchTreeIterator/solution.py)| generator in python |
+| 174 | [Dungeon Game](https://leetcode.com/problems/dungeon-game/) | [C++](./solutions/DungeonGame/solution.cpp) [Python](./solutions/DungeonGame/solution.py)| traverse grid, in each square you either gain or lose energy. what's the minimum start energy to finish. dp |
 | 179 | [Largest Number](https://leetcode.com/problems/largest-number/) | [C++](./solutions/LargestNumber/solution.cpp) [Python](./solutions/LargestNumber/solution.py)| array of non-negative ints give. Arrange themm so that they form largest number possible. Need a clever comparison operator |
 | 188 | [Best Time To Buy And Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [C++](./solutions/BestTimeToBuyAndSellStockIV/solution.cpp) [Python](./solutions/BestTimeToBuyAndSellStockIV/solution.py) | k transactions allowed |
 | 189 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | [C++](./solutions/RotateArray/solution.cpp) |  |
