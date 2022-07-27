@@ -6,12 +6,12 @@ blablabla
 ## Problems & Solutions
 
 tags: matma, try also, cool python, cool c++, no number, tricky, string play,
+in code base grep for 'cool read'
 
 Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-
 
 
 
@@ -113,6 +113,7 @@ TODO add tag 'graph' ??
 | 205 | [Isomorphic Strings](https://leetcode.com/problems/isomorphic-strings/) | [C++](./solutions/IsomorphicStrings/solution.cpp) [Python](./solutions/IsomorphicStrings/solution.py)| hash, string play |
 | 207 | [Course Schedule](https://leetcode.com/problems/course-schedule/) | [Python](./solutions/CourseSchedule/solution.py)  | dfs |
 | 208 | [Implement Trie (Prefix Tree)](https://leetcode.com/problems/implement-trie-prefix-tree/) | [C++](./solutions/ImplementTriePrefixTree/solution.cpp)  | trie |
+| 209 | [Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/) | [C++](./solutions/MinimumSizeSubarraySum/solution.cpp) | as title. similar to 862 but easier |
 | 210 | [Course Schedule II](https://leetcode.com/problems/course-schedule-ii/) | [C++](./solutions/CourseScheduleII/solution.cpp)  | topological sort |
 | 213 | [House Robber II](https://leetcode.com/problems/house-robber-ii/) | [Python](./solutions/HouseRobberII/solution.py)| like a classic house robber but houses arranged in circle |
 | 216 | [Combination Sum III](https://leetcode.com/problems/combination-sum-iii/) | [Python](./solutions/CombinationSumIII/solution.py)| Find all valid combinations of k numbers that sum up to n. Only nums 1-9 can be used, and each num used at most once. |
@@ -193,6 +194,8 @@ TODO add tag 'graph' ??
 | 617 | [Merge Two Binary Trees](https://leetcode.com/problems/merge-two-binary-trees/) | [C++](./solutions/MergeTwoBinaryTrees/solution.cpp) | as title says |
 | 621 | [Task Scheduler](https://leetcode.com/problems/task-scheduler/) | [Python](./solutions/TaskScheduler/solution.py) [C++](./solutions/TaskScheduler/solution.cpp) | python solution with heap and C++ more direct |
 | 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [C++](./solutions/CourseScheduleIII/solution.cpp) | Each course has duration and deadline. Cannot do 2 courses at the same time. What's the max number that can be taken. Sort and then heap. |
+| 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Python](./solutions/PalindromicSubstrings/solution.py)| number of palindroms in a string, dp |
+| 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](./solutions/FindDuplicateSubtrees/solution.py)| serialise e.g. using pre-order traversal |
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [C++](./solutions/RedundantConnection/solution.cpp) [Python](./solutions/RedundantConnection/solution.py)| build graph one edge at a time. Other solution brute force  |
 | 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Python](./solutions/SubarrayProductLessThanK/solution.py) | find number of subarrays where the product of all the elements is less than given k, sliding window |
 | 714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](./solutions/BestTimeToBuyAndSellStockWithTransactionFee/solution.py)|  |
