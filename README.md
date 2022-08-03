@@ -167,6 +167,7 @@ TODO add tag 'graph' ??
 | 413 | [Arithmetic Slices](https://leetcode.com/problems/arithmetic-slices/) | [Python](./solutions/ArithmeticSlices/solution.py)| Gauss formula |
 | 416 | [Partition Equal Subset Sum](https://leetcode.com/problems/partition-equal-subset-sum/) | [Python](./solutions/PartitionEqualSubsetSum/solution.py)| can split array into two that have same sum, dp knapsack problem |
 | 419 | [Battleships In A Board](https://leetcode.com/problems/battleships-in-a-board/) | [C++](./solutions/BattleshipsInABoard/solution.cpp) | 2d board has 1d ships. Count them in one pass without modifying the board and using O(1) extra space. identify upper left corners of ships |
+| 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [C++](./solutions/LongestRepeatingCharacterReplacement/solution.cpp) | similar to Max Consecutive Ones, sliding window |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [C++](./solutions/PathSumIII/solution.cpp) | in a binary tree find number of paths that sum to target, similar to Subarray Sum Equals K, hash map |
 | 438 | [Find All Anagrams In A String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](./solutions/FindAllAnagramsInAString/solution.cpp) | 2 strings,get all indices of p anagrams in s.sliding window |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [C++](./solutions/AddTwoNumbersII/solution.cpp)| reverse linked list |
@@ -224,6 +225,7 @@ TODO add tag 'graph' ??
 | 934 | [Shortest Bridge](https://leetcode.com/problems/shortest-bridge/) | [Python](./solutions/ShortestBridge/solution.py)| grid with 2 islands, find the shortest bridge, bfs to expand island 1 until we hit island 2 |
 | 950 | [Reveal Cards In Increasing Order](https://leetcode.com/problems/reveal-cards-in-increasing-order/) | [C++](./solutions/RevealCardsInIncreasingOrder/solution.cpp) [Python](./solutions/RevealCardsInIncreasingOrder/solution.py)| arrange cards in a certain way |
 | 954 | [Array Of Doubled Pairs](https://leetcode.com/problems/array-of-doubled-pairs/) | [C++](./solutions/ArrayOfDoubledPairs/solution.cpp) [Python](./solutions/ArrayOfDoubledPairs/solution.py)| re-arrange array so that each value has a pair twice as big |
+| 956 | [Tallest Billboard](https://leetcode.com/problems/tallest-billboard/) | [C++](./solutions/TallestBillboard/solution.cpp) [Python](./solutions/TallestBillboard/solution.py)| given a set of rods construct supports for billboard, dp  |
 | 957 | [Prison Cells After N Days](https://leetcode.com/problems/prison-cells-after-n-days/) | [Python](./solutions/PrisonCellsAfterNDays/solution.py) | cells become occupied or vacant, similar to bulbs, find cycle so we don't simulate it too many times |
 | 958 | [Check Completeness Of A Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Python](./solutions/CheckCompletenessOfABinaryTree/solution.py)| as title. bfs. |
 | 969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./solutions/PancakeSorting/solution.py)| should be self descriptive |
@@ -291,5 +293,6 @@ TODO add tag 'graph' ??
 | 2312 | [Selling Pieces Of Wood](https://leetcode.com/problems/selling-pieces-of-wood/) | [Python](./solutions/SellingPiecesOfWood/solution.py) | divide a piece of wood into pieces (only certain sizes possible) to be sold. What's the optimal division. dp |
 | 2316 | [Count Unreachable Pairs Of Nodes In An Undirected Graph](https://leetcode.com/problems/count-unreachable-pairs-of-nodes-in-an-undirected-graph/) | [Python](./solutions/CountUnreachablePairsOfNodesInAnUndirectedGraph/solution.py)| as title. dfs or union find.  |
 | 2349 | [Design A Number Container System](https://leetcode.com/problems/design-a-number-container-system/) | [C++](./solutions/DesignANumberContainerSystem/solution.cpp) | design data structure that maps index to number, function find should return the smallest index for given number. two hash maps |
+| 2360 | [Longest Cycle In A Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | [C++](./solutions/LongestCycleInAGraph/solution.cpp) | directed graph given, each node has at most one outgoing edge. find longest cycle. dfs |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
