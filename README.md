@@ -202,6 +202,7 @@ TODO add tag 'graph' ??
 | 630 | [Course Schedule III](https://leetcode.com/problems/course-schedule-iii/) | [C++](./solutions/CourseScheduleIII/solution.cpp) | Each course has duration and deadline. Cannot do 2 courses at the same time. What's the max number that can be taken. Sort and then heap. |
 | 647 | [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/) | [Python](./solutions/PalindromicSubstrings/solution.py)| number of palindroms in a string, dp |
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](./solutions/FindDuplicateSubtrees/solution.py)| serialise e.g. using pre-order traversal |
+| 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | [Python](./solutions/MaximumSwap/solution.py)| in given int swap two digits at most once to get maximum value, greedy |
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [C++](./solutions/RedundantConnection/solution.cpp) [Python](./solutions/RedundantConnection/solution.py)| build graph one edge at a time. Other solution brute force  |
 | 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Python](./solutions/SubarrayProductLessThanK/solution.py) | find number of subarrays where the product of all the elements is less than given k, sliding window |
 | 714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](./solutions/BestTimeToBuyAndSellStockWithTransactionFee/solution.py)|  |
@@ -307,5 +308,6 @@ TODO add tag 'graph' ??
 | 2360 | [Longest Cycle In A Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | [C++](./solutions/LongestCycleInAGraph/solution.cpp) | directed graph given, each node has at most one outgoing edge. find longest cycle. dfs |
 | 2364 | [Count Number Of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | [Python](./solutions/CountNumberOfBadPairs/solution.py) | transform formula and then use hashing |
 | 2366 | [Minimum Replacements To Sort The Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/) | [Python](./solutions/MinimumReplacementsToSortTheArray/solution.py)| matma |
+| 2381 | [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/) | [Python](./solutions/ShiftingLettersII/solution.py)| line sweep algo |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
