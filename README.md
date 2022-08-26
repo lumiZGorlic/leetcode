@@ -124,6 +124,7 @@ TODO add tag 'graph' ??
 | 224 | [Basic Calculator](https://leetcode.com/problems/basic-calculator/) | [Python](./solutions/BasicCalculator/solution.py)| add, deduct and parenthesis |
 | 226 | [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | [C++](./solutions/InvertBinaryTree/solution.cpp)| |
 | 227 | [Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | [C++](./solutions/BasicCalculatorII/solution.cpp) [Python](./solutions/BasicCalculatorII/solution.py)| add, deduct, multiply and divide, cool C++ |
+| 229 | [Majority Element II](https://leetcode.com/problems/majority-element-ii/) | [Python](./solutions/MajorityElementII/solution.py)| Boyer–Moore majority vote algorithm |
 | 230 | [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Python](./solutions/KthSmallestElementInABST/solution.py)| do in-order traversal while counting |
 | 232 | [Implement Queue Using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/) | [C++](./solutions/ImplementQueueUsingStacks/solution.cpp) | use one stack for input and one for output |
 | 236 | [Lowest Common Ancestor Of A Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [C++](./solutions/LowestCommonAncestorOfABinaryTree/solution.cpp) [Python](./solutions/LowestCommonAncestorOfABinaryTree/solution.py)| as title, collect full paths to both nodes first and then easy solve, can be done easier |
@@ -146,6 +147,7 @@ TODO add tag 'graph' ??
 | 309 | [Best Time To Buy And Sell Stock With Cooldown](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/) | [Python](./solutions/BestTimeToBuyAndSellStockWithCooldown/solution.py) [C++](./solutions/BestTimeToBuyAndSellStockWithCooldown/solution.cpp)|  |
 | 313 | [Super Ugly Number](https://leetcode.com/problems/super-ugly-number/) | [C++](./solutions/SuperUglyNumber/solution.cpp) [Python](./solutions/SuperUglyNumber/solution.py)| given int n and list of primes, find nth ugly number. dp or heap |
 | 315 | [Count Of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/) | [C++](./solutions/CountOfSmallerNumbersAfterSelf/solution.cpp) [Python](./solutions/CountOfSmallerNumbersAfterSelf/solution.py)| merge sort solution  |
+| 319 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | [Python](./solutions/BulbSwitcher/solution.py)| bulbs go on and off, figure out the pattern, matma |
 | 322 | [Coin Change](https://leetcode.com/problems/coin-change/) | [C++](./solutions/CoinChange/solution.cpp) | classic dp, the fewest number of coins to make up the amount |
 | 324 | [Wiggle Sort II](https://leetcode.com/problems/wiggle-sort-ii/) | [C++](./solutions/WiggleSortII/solution.cpp) | Given an int array nums, reorder it such that nums[0] < nums[1] > nums[2] < nums[3].... |
 | 326 | [Power Of Three](https://leetcode.com/problems/power-of-three/) | [C++](./solutions/PowerOfThree/solution.cpp) | check if a given int is a power of 3  |
@@ -308,6 +310,7 @@ TODO add tag 'graph' ??
 | 2360 | [Longest Cycle In A Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | [C++](./solutions/LongestCycleInAGraph/solution.cpp) | directed graph given, each node has at most one outgoing edge. find longest cycle. dfs |
 | 2364 | [Count Number Of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | [Python](./solutions/CountNumberOfBadPairs/solution.py) | transform formula and then use hashing |
 | 2366 | [Minimum Replacements To Sort The Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/) | [Python](./solutions/MinimumReplacementsToSortTheArray/solution.py)| matma |
+| 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | [Python](./solutions/CountSpecialIntegers/solution.py)| int is special if all its digits are distinct. count all special ints smaller than given n. combinatorics. matma |
 | 2381 | [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/) | [Python](./solutions/ShiftingLettersII/solution.py)| line sweep algo |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
