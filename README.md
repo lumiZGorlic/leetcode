@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not corect, number of folders off ????
+# count not corect, number of folders off ???? need to check that...
 
 
 
@@ -241,6 +241,7 @@ TODO add tag 'graph' ??
 | 958 | [Check Completeness Of A Binary Tree](https://leetcode.com/problems/check-completeness-of-a-binary-tree/) | [Python](./solutions/CheckCompletenessOfABinaryTree/solution.py)| as title. bfs. |
 | 969 | [Pancake Sorting](https://leetcode.com/problems/pancake-sorting/) | [Python](./solutions/PancakeSorting/solution.py)| should be self descriptive |
 | 973 | [K Closest Points To Origin](https://leetcode.com/problems/k-closest-points-to-origin/) | [Python](./solutions/KClosestPointsToOrigin/solution.py)| as title. sorting. |
+| 979 | [Distribute Coins In Binary Tree](https://leetcode.com/problems/distribute-coins-in-binary-tree/) | [Python](./solutions/DistributeCoinsInBinaryTree/solution.py)| re-distribute coins in tree so that every node has exactly one. dfs |
 | 988 | [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [C++](./solutions/SmallestStringStartingFromLeaf/solution.cpp) | dfs |
 | 990 | [Satisfiability Of Equality Equations](https://leetcode.com/problems/satisfiability-of-equality-equations/) | [C++](./solutions/SatisfiabilityOfEqualityEquations/solution.cpp) | check if a set of equations with '!=' and '==' can be satisfied. classic dfs and union find |
 | 991 | [Broken Calculator](https://leetcode.com/problems/broken-calculator/) | [Python](./solutions/BrokenCalculator/solution.py)| go from int X to int Y, with min number of steps, can only multiply by 2 and subtract 1. go backwards from Y to X |
@@ -274,6 +275,7 @@ TODO add tag 'graph' ??
 | 1382 | [Balance A Binary Search Tree](https://leetcode.com/problems/balance-a-binary-search-tree/) | [C++](./solutions/BalanceABinarySearchTree/solution.cpp) | given a root of BST, return a balanced BST, easy solution - in order traversal to collect numbers then construct balanced BST, try also DSW algorithm |
 | 1395 | [Count Number Of Teams](https://leetcode.com/problems/count-number-of-teams/) | [Python](./solutions/CountNumberOfTeams/solution.py)| basically in ints array find triplets that increase, in O(N^2) easy, try also balanced tree and bs |
 | 1405 | [Longest Happy String](https://leetcode.com/problems/longest-happy-string/) | [C++](./solutions/LongestHappyString/solution.cpp)| string composed only of 'a', 'b', 'c'. Cannot have triplets (e.g. 'bbb'). Can have at most a occurences of 'a', b of 'b', c of 'c'.Construct longest possible. Similar to 621 (Task Scheduler)|
+| 1442 | [Count Triplets That Can Form Two Arrays Of Equal XOR](https://leetcode.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/) | [C++](./solutions/CountTripletsThatCanFormTwoArraysOfEqualXOR/solution.cpp) | basically comes down to find all subarrays for which XOR is 0. |
 | 1443 | [Minimum Time To Collect All Apples In A Tree](https://leetcode.com/problems/minimum-time-to-collect-all-apples-in-a-tree/) | [Python](./solutions/MinimumTimeToCollectAllApplesInATree/solution.py)| a tree that has apples on some nodes, min number of moves to collect all of them. dfs. |
 | 1444 | [Number Of Ways Of Cutting A Pizza](https://leetcode.com/problems/number-of-ways-of-cutting-a-pizza/) | [C++](./solutions/NumberOfWaysOfCuttingAPizza/solution.cpp) | cut pizza into k slices so that each has at least one apple. dp |
 | 1488 | [Avoid Flood In The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [C++](./solutions/AvoidFloodInTheCity/solution.cpp) | info in solution file |
