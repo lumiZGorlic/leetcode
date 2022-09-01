@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not corect, number of folders off ???? need to check that...
+# count not corect, number of folders off ???? really need to check that...
 
 
 
@@ -314,6 +314,7 @@ TODO add tag 'graph' ??
 | 2360 | [Longest Cycle In A Graph](https://leetcode.com/problems/longest-cycle-in-a-graph/) | [C++](./solutions/LongestCycleInAGraph/solution.cpp) | directed graph given, each node has at most one outgoing edge. find longest cycle. dfs |
 | 2364 | [Count Number Of Bad Pairs](https://leetcode.com/problems/count-number-of-bad-pairs/) | [Python](./solutions/CountNumberOfBadPairs/solution.py) | transform formula and then use hashing |
 | 2366 | [Minimum Replacements To Sort The Array](https://leetcode.com/problems/minimum-replacements-to-sort-the-array/) | [Python](./solutions/MinimumReplacementsToSortTheArray/solution.py)| matma |
+| 2375 | [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/) | [Python](./solutions/ConstructSmallestNumberFromDIString/solution.py)| string with chars D (decrease) and I (increase) given. using digits construct smallest number. kind of greedy or backtracking |
 | 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | [Python](./solutions/CountSpecialIntegers/solution.py)| int is special if all its digits are distinct. count all special ints smaller than given n. combinatorics. matma |
 | 2381 | [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/) | [Python](./solutions/ShiftingLettersII/solution.py)| line sweep algo |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
