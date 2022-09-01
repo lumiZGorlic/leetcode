@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-
+# count not corect, number of folders off ????
 
 
 
@@ -222,6 +222,7 @@ TODO add tag 'graph' ??
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Python](./solutions/CheapestFlightsWithinKStops/solution.py)| weighted graph given anf find the cheapest path from src to dst that has maximum K stops, dfs or bfs or other approaches |
 | 790 | [Domino And Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/) | [C++](./solutions/DominoAndTrominoTiling/solution.cpp) | number of ways to tile a board 2xn using dominos and trominos. dp |
 | 837 | [New 21 Game](https://leetcode.com/problems/new-21-game/) | [C++](./solutions/New21Game/solution.cpp) [Python](./solutions/New21Game/solution.py)| game with points, calculate probability |
+| 838 | [Push Dominoes](https://leetcode.com/problems/push-dominoes/) | [Python](./solutions/PushDominoes/solution.py)| dominoes falling, calculate final state. |
 | 847 | [Shortest Path Visiting All Nodes](https://leetcode.com/problems/shortest-path-visiting-all-nodes/) | [C++](./solutions/ShortestPathVisitingAllNodes/solution.cpp) | given path return shortest path visiting all nodes, start at any node. cause not many nodes use bitmask and bfs |
 | 854 | [K-Similar Strings](https://leetcode.com/problems/k-similar-strings/) | [C++](./solutions/K-SimilarStrings/solution.cpp) [Python](./solutions/K-SimilarStrings/solution.py)| A and B are anagrams, find min number of swaps in A to make it equal to B, backtracking or BFS |
 | 862 | [Shortest Subarray With Sum At Least K](https://leetcode.com/problems/shortest-subarray-with-sum-at-least-k/) | [Python](./solutions/ShortestSubarrayWithSumAtLeastK/solution.py)| Given int array nums and int k, return the length of the shortest non-empty subarray of nums with a sum of at least k. Monotone queue |
@@ -281,6 +282,7 @@ TODO add tag 'graph' ??
 | 1584 | [Min Cost To Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./solutions/MinCostToConnectAllPoints/solution.py) | minimum spanning tree |
 | 1643 | [Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/) | [C++](./solutions/KthSmallestInstructions/solution.cpp) [Python](./solutions/KthSmallestInstructions/solution.py)| combinations with duplicates |
 | 1685 | [Sum Of Absolute Differences In A Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | [Python](./solutions/SumOfAbsoluteDifferencesInASortedArray/solution.py)| for each element in array find sum of abs differences, use formula to do it in O(N) |
+| 1694 | [Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/) | [Python](./solutions/ReformatPhoneNumber/solution.py)| at title. regex or loops |
 | 1705 | [Maximum Number Of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/) | [C++](./solutions/MaximumNumberOfEatenApples/solution.cpp) | each day apples grow and rot, how many can we eat, heap |
 | 1726 | [Tuple With Same Product](https://leetcode.com/problems/tuple-with-same-product/) | [C++](./solutions/TupleWithSameProduct/solution.cpp) | array of distinct positive ints, find all tuples a,b,c,d such that ab=cd |
 | 1775 | [Equal Sum Arrays With Minimum Number Of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/) | [C++](./solutions/EqualSumArraysWithMinimumNumberOfOperations/solution.cpp) [Python](./solutions/EqualSumArraysWithMinimumNumberOfOperations/solution.py)| modify values in arrays to make sums equal. greedy approach. |
