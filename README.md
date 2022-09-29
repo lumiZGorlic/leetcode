@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not corect, number of folders off ???? really need to check that...
+# count not corect, number of folders off ???? reallyyyyyy need to check that...
 
 
 
@@ -217,6 +217,8 @@ TODO add tag 'graph' ??
 | 763 | [Partition Labels](https://leetcode.com/problems/partition-labels/) | [C++](./solutions/PartitionLabels/solution.cpp) | split array, got it on amzn interview |
 | 765 | [Couples Holding Hands](https://leetcode.com/problems/couples-holding-hands/) | [Python](./solutions/CouplesHoldingHands/solution.py)| Swap nums so that couples sit side by side. greedy, try also graph decomposition or union find. |
 | 766 | [Toeplitz Matrix](https://leetcode.com/problems/toeplitz-matrix/) | [C++](./solutions/ToeplitzMatrix/solution.cpp) | matrix is Toeplitz if every diagonal from top-left to bottom-right has the same elements |
+| 768 | [Max Chunks To Make Sorted II](https://leetcode.com/problems/max-chunks-to-make-sorted-ii/) | [C++](./solutions/MaxChunksToMakeSortedII/solution.cpp) [Python](./solutions/MaxChunksToMakeSortedII/solution.py)| array of ints. split array. then sort each chunk and concatenate to end up with sorted array. what's the max number of chunks. use map or max / min. |
+| 769 | [Max Chunks To Make Sorted](https://leetcode.com/problems/max-chunks-to-make-sorted/) | [Python](./solutions/MaxChunksToMakeSorted/solution.py)| array of n ints contains values 0 to n-1 and no duplicates. split array. then sort each chunk and concatenate to end up with sorted array. what's the max number of chunks. |
 | 779 | [K Th Symbol In Grammar](https://leetcode.com/problems/k-th-symbol-in-grammar/) | [C++](./solutions/KThSymbolInGrammar/solution.cpp) | start with 0, then in each round 0 turns into 01, 1 turns into 10, return Kth bit in Nth row, see pattern in tree and do recursion, try also one liner |
 | 785 | [Is Graph Bipartite](https://leetcode.com/problems/is-graph-bipartite/) | [Python](./solutions/IsGraphBipartite/solution.py)| can nodes be split into two groups and every edge connects these two groups, bfs or dfs |
 | 787 | [Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/) | [Python](./solutions/CheapestFlightsWithinKStops/solution.py)| weighted graph given anf find the cheapest path from src to dst that has maximum K stops, dfs or bfs or other approaches |
