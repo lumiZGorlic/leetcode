@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not corect, number of folders off ???? reallyyyyyy need to check that...
+# count not corect, number of folders off ???? reallyyyyyyyyyy need to check that...
 
 
 
@@ -319,5 +319,6 @@ TODO add tag 'graph' ??
 | 2375 | [Construct Smallest Number From DI String](https://leetcode.com/problems/construct-smallest-number-from-di-string/) | [Python](./solutions/ConstructSmallestNumberFromDIString/solution.py)| string with chars D (decrease) and I (increase) given. using digits construct smallest number. kind of greedy or backtracking |
 | 2376 | [Count Special Integers](https://leetcode.com/problems/count-special-integers/) | [Python](./solutions/CountSpecialIntegers/solution.py)| int is special if all its digits are distinct. count all special ints smaller than given n. combinatorics. matma |
 | 2381 | [Shifting Letters II](https://leetcode.com/problems/shifting-letters-ii/) | [Python](./solutions/ShiftingLettersII/solution.py)| line sweep algo |
+| 2434 | [Using A Robot To Print The Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/) | [Python](./solutions/UsingARobotToPrintTheLexicographicallySmallestString/solution.py)| strings manipulations, greedy |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
