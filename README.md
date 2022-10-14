@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not corect, number of folders off ???? reallyyy need to check that...
+# count not correct, number of folders off ???? reallyyy need to check that...
 
 
 
@@ -207,6 +207,7 @@ TODO add tag 'graph' ??
 | 652 | [Find Duplicate Subtrees](https://leetcode.com/problems/find-duplicate-subtrees/) | [Python](./solutions/FindDuplicateSubtrees/solution.py)| serialise e.g. using pre-order traversal |
 | 670 | [Maximum Swap](https://leetcode.com/problems/maximum-swap/) | [Python](./solutions/MaximumSwap/solution.py)| in given int swap two digits at most once to get maximum value, greedy |
 | 684 | [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [C++](./solutions/RedundantConnection/solution.cpp) [Python](./solutions/RedundantConnection/solution.py)| build graph one edge at a time. Other solution brute force  |
+| 698 | [Partition To K Equal Sum Subsets](https://leetcode.com/problems/partition-to-k-equal-sum-subsets/) | [C++](./solutions/PartitionToKEqualSumSubsets/solution.cpp) | as title. dp with bitmasks |
 | 713 | [Subarray Product Less Than K](https://leetcode.com/problems/subarray-product-less-than-k/) | [Python](./solutions/SubarrayProductLessThanK/solution.py) | find number of subarrays where the product of all the elements is less than given k, sliding window |
 | 714 | [Best Time To Buy And Sell Stock With Transaction Fee](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/) | [Python](./solutions/BestTimeToBuyAndSellStockWithTransactionFee/solution.py)|  |
 | 718 | [Maximum Length of Repeated Subarray](https://leetcode.com/problems/maximum-length-of-repeated-subarray/) | [Python](./solutions/MaximumLengthOfRepeatedSubarray/solution.py)| two arrays given, longest common subarray, dp  |
