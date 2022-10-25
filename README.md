@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not correct, number of folders off ???? reallyyy need to check that...
+# count not correct, number of folders off ???? really need to check that...
 
 
 
@@ -324,5 +324,6 @@ TODO add tag 'graph' ??
 | 2434 | [Using A Robot To Print The Lexicographically Smallest String](https://leetcode.com/problems/using-a-robot-to-print-the-lexicographically-smallest-string/) | [Python](./solutions/UsingARobotToPrintTheLexicographicallySmallestString/solution.py)| strings manipulations, greedy |
 | 2435 | [Paths In Matrix Whose Sum Is Divisible By K](https://leetcode.com/problems/paths-in-matrix-whose-sum-is-divisible-by-k/) | [C++](./solutions/PathsInMatrixWhoseSumIsDivisibleByK/solution.cpp) | as title. dp |
 | 2439 | [Minimize Maximum Of Array](https://leetcode.com/problems/minimize-maximum-of-array/) | [C++](./solutions/MinimizeMaximumOfArray/solution.cpp) [Python](./solutions/MinimizeMaximumOfArray/solution.py)| matma |
+| 2448 | [Minimum Cost To Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/) | [Python](./solutions/MinimumCostToMakeArrayEqual/solution.py)| as title. prefix sum. |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
