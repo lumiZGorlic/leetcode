@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not correct, number of folders off ???? really need to check that...
+# count not correct, number of folders off ??? really need to check that...
 
 
 
@@ -234,6 +234,7 @@ TODO add tag 'graph' ??
 | 873 | [Length Of Longest Fibonacci Subsequence](https://leetcode.com/problems/length-of-longest-fibonacci-subsequence/) | [Python](./solutions/LengthOfLongestFibonacciSubsequence/solution.py)| brute force, try also dp |
 | 875 | [Koko Eating Bananas](https://leetcode.com/problems/koko-eating-bananas/) | [C++](./solutions/KokoEatingBananas/solution.cpp)| max speed that satisfies a specific condition, use binary search |
 | 877 | [Stone Game](https://leetcode.com/problems/stone-game/) | [C++](./solutions/StoneGame/solution.cpp)| dp |
+| 881 | [Boats To Save People](https://leetcode.com/problems/boats-to-save-people/) | [C++](./solutions/BoatsToSavePeople/solution.cpp) | each person has weight, there's a max weight per boat and boat can only take 2 people, how many boats we need. sort and greedy |
 | 907 | [Sum Of Subarray Minimums](https://leetcode.com/problems/sum-of-subarray-minimums/) | [Python](./solutions/SumOfSubarrayMinimums/solution.py)| sum mins for all subarrays, use stack |
 | 912 | [Sort An Array](https://leetcode.com/problems/sort-an-array/) | [C++](./solutions/SortAnArray/solution.cpp) [Python](./solutions/SortAnArray/solution.py)| implemet some classic sort algos, heap sort and quicksort |
 | 931 | [Minimum Falling Path Sum](https://leetcode.com/problems/minimum-falling-path-sum/) | [Python](./solutions/MinimumFallingPathSum/solution.py)| dp, similar to 1937 |
