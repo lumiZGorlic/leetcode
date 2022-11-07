@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not correct, number of folders off ?? really need to check that...
+# count not correct, number of folders off ? really need to check that...
 
 
 
@@ -301,6 +301,7 @@ TODO add tag 'graph' ??
 | 1884 | [Egg Drop With 2 Eggs And N Floors](https://leetcode.com/problems/egg-drop-with-2-eggs-and-n-floors/) | [C++](./solutions/EggDropWith2EggsAndNFloors/solution.cpp) [Python](./solutions/EggDropWith2EggsAndNFloors/solution.py)| as title |
 | 1937 | [Maximum Number Of Points With Cost](https://leetcode.com/problems/maximum-number-of-points-with-cost/) | [C++](./solutions/MaximumNumberOfPointsWithCost/solution.cpp)| dp |
 | 1942 | [The Number Of The Smallest Unoccupied Chair](https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/) | [C++](./solutions/TheNumberOfTheSmallestUnoccupiedChair/solution.cpp)| numbered chairs taken/freed by arriving/leaving guests. What chair will be taken by a concrete guest. sort times. use hash map and heap. |
+| 1986 | [Minimum Number Of Work Sessions To Finish The Tasks](https://leetcode.com/problems/minimum-number-of-work-sessions-to-finish-the-tasks/) | [C++](./solutions/MinimumNumberOfWorkSessionsToFinishTheTasks/solution.cpp) | distribute tasks into min number of sessions. dfs + memo. try also bitmap |
 | 2080 | [Range Frequency Queries](https://leetcode.com/problems/range-frequency-queries/) | [C++](./solutions/RangeFrequencyQueries/solution.cpp) | query[l,r,v] to see how many files value v appears in the array between indexes l and r. binary search. |
 | 2096 | [Step By Step Directions From A Binary Tree Node To Another](https://leetcode.com/problems/step-by-step-directions-from-a-binary-tree-node-to-another/) |  [Python](./solutions/StepByStepDirectionsFromABinaryTreeNodeToAnother/solution.py)| use lowest common ancestor solution |
 | 2104 | [Sum Of Subarray Ranges](https://leetcode.com/problems/sum-of-subarray-ranges/) | [Python](./solutions/SumOfSubarrayRanges/solution.py)| almost same as Sum Of Subarray Minimums, one pass for min and one for max |
