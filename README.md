@@ -12,7 +12,7 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO add tag 'graph' ??
-# count not correct, number of folders off ?? really need to check that...
+
 
 
 
@@ -176,6 +176,7 @@ TODO add tag 'graph' ??
 | 424 | [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-repeating-character-replacement/) | [C++](./solutions/LongestRepeatingCharacterReplacement/solution.cpp) | similar to Max Consecutive Ones, sliding window |
 | 437 | [Path Sum III](https://leetcode.com/problems/path-sum-iii/) | [C++](./solutions/PathSumIII/solution.cpp) | in a binary tree find number of paths that sum to target, similar to Subarray Sum Equals K, hash map |
 | 438 | [Find All Anagrams In A String](https://leetcode.com/problems/find-all-anagrams-in-a-string/) | [C++](./solutions/FindAllAnagramsInAString/solution.cpp) | 2 strings,get all indices of p anagrams in s.sliding window |
+| 442 | [Find All Duplicates In An Array](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [C++](./solutions/FindAllDuplicatesInAnArray/solution.cpp) | array of size n has values 1-n. some appear once and some twice. find duplicates. Cyclic sort |
 | 445 | [Add Two Numbers II](https://leetcode.com/problems/add-two-numbers-ii/) | [C++](./solutions/AddTwoNumbersII/solution.cpp)| reverse linked list |
 | 450 | [Delete Node In A BST](https://leetcode.com/problems/delete-node-in-a-bst/) | [C++](./solutions/DeleteNodeInABST/solution.cpp) [Python](./solutions/DeleteNodeInABST/solution.py)| dfs, find the node, if it has only left child - its easy, if it has both - find min value in the right child branch then easy |
 | 451 | [Sort Characters By Frequency](https://leetcode.com/problems/sort-characters-by-frequency/) | [Python](./solutions/SortCharactersByFrequency/solution.py)|  |
