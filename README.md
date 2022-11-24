@@ -290,6 +290,7 @@ TODO add tag 'graph' ??
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | [C++](./solutions/PathWithMaximumProbability/solution.cpp)  | Dijkstra's algorithm |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | [C++](./solutions/ShuffleString/solution.cpp) | shuffle string according to the mapping given |
 | 1584 | [Min Cost To Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./solutions/MinCostToConnectAllPoints/solution.py) | minimum spanning tree |
+| 1642 | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | [C++](./solutions/FurthestBuildingYouCanReach/solution.cpp) | jump between buildings using ladder and bricks. heap.  |
 | 1643 | [Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/) | [C++](./solutions/KthSmallestInstructions/solution.cpp) [Python](./solutions/KthSmallestInstructions/solution.py)| combinations with duplicates |
 | 1685 | [Sum Of Absolute Differences In A Sorted Array](https://leetcode.com/problems/sum-of-absolute-differences-in-a-sorted-array/) | [Python](./solutions/SumOfAbsoluteDifferencesInASortedArray/solution.py)| for each element in array find sum of abs differences, use formula to do it in O(N) |
 | 1694 | [Reformat Phone Number](https://leetcode.com/problems/reformat-phone-number/) | [Python](./solutions/ReformatPhoneNumber/solution.py)| at title. regex or loops |
