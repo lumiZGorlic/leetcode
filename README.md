@@ -289,6 +289,7 @@ TODO add tag 'graph' ??
 | 1488 | [Avoid Flood In The City](https://leetcode.com/problems/avoid-flood-in-the-city/) | [C++](./solutions/AvoidFloodInTheCity/solution.cpp) | info in solution file |
 | 1514 | [Path with Maximum Probability](https://leetcode.com/problems/path-with-maximum-probability/) | [C++](./solutions/PathWithMaximumProbability/solution.cpp)  | Dijkstra's algorithm |
 | 1528 | [Shuffle String](https://leetcode.com/problems/shuffle-string/) | [C++](./solutions/ShuffleString/solution.cpp) | shuffle string according to the mapping given |
+| 1579 | [Remove Max Number Of Edges To Keep Graph Fully Traversable](https://leetcode.com/problems/remove-max-number-of-edges-to-keep-graph-fully-traversable/) | [Python](./solutions/RemoveMaxNumberOfEdgesToKeepGraphFullyTraversable/solution.py)| some edges usable by A, some by B, some by both. max number of edges we can remove so A and B can still traverse the graph. greedy with union find. |
 | 1584 | [Min Cost To Connect All Points](https://leetcode.com/problems/min-cost-to-connect-all-points/) | [Python](./solutions/MinCostToConnectAllPoints/solution.py) | minimum spanning tree |
 | 1642 | [Furthest Building You Can Reach](https://leetcode.com/problems/furthest-building-you-can-reach/) | [C++](./solutions/FurthestBuildingYouCanReach/solution.cpp) | jump between buildings using ladder and bricks. heap.  |
 | 1643 | [Kth Smallest Instructions](https://leetcode.com/problems/kth-smallest-instructions/) | [C++](./solutions/KthSmallestInstructions/solution.cpp) [Python](./solutions/KthSmallestInstructions/solution.py)| combinations with duplicates |
@@ -333,5 +334,6 @@ TODO add tag 'graph' ??
 | 2448 | [Minimum Cost To Make Array Equal](https://leetcode.com/problems/minimum-cost-to-make-array-equal/) | [Python](./solutions/MinimumCostToMakeArrayEqual/solution.py)| as title. prefix sum. |
 | 2467 | [Most Profitable Path In A Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/) | [Python](./solutions/MostProfitablePathInATree/solution.py)| bfs dfs good practise |
 | 2470 | [Number Of Subarrays With LCM Equal To K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/) | [C++](./solutions/NumberOfSubarraysWithLCMEqualToK/solution.cpp) | least common multiple. use library function to solve. for greatest common divisor similar solution |
+| 2508 | [Add Edges To Make Degrees Of All Nodes Even](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/) | [Python](./solutions/AddEdgesToMakeDegreesOfAllNodesEven/solution.py)| can add max two edges so that every node in the graph has even degree |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
