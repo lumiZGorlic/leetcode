@@ -336,5 +336,6 @@ TODO add tag 'graph', practise union find and dp complexity analysis ??
 | 2467 | [Most Profitable Path In A Tree](https://leetcode.com/problems/most-profitable-path-in-a-tree/) | [Python](./solutions/MostProfitablePathInATree/solution.py)| bfs dfs good practise |
 | 2470 | [Number Of Subarrays With LCM Equal To K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/) | [C++](./solutions/NumberOfSubarraysWithLCMEqualToK/solution.cpp) | least common multiple. use library function to solve. for greatest common divisor similar solution |
 | 2508 | [Add Edges To Make Degrees Of All Nodes Even](https://leetcode.com/problems/add-edges-to-make-degrees-of-all-nodes-even/) | [Python](./solutions/AddEdgesToMakeDegreesOfAllNodesEven/solution.py)| can add max two edges so that every node in the graph has even degree |
+| 2513 | [Minimize The Maximum Of Two Arrays](https://leetcode.com/problems/minimize-the-maximum-of-two-arrays/) | [C++](./solutions/MinimizeTheMaximumOfTwoArrays/solution.cpp) | fill arrays with values omitting ones that are divisible by certain ints. lcm, bs, matma |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
