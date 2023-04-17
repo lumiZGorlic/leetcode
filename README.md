@@ -371,5 +371,6 @@ TODO practise union find and dp complexity analysis ??
 | 2542 | [Maximum Subsequence Score](https://leetcode.com/problems/maximum-subsequence-score/) | [C++](./solutions/MaximumSubsequenceScore/solution.cpp) | two arrays of same size, pick subsequence of indexes of length k to maximize sum from nums1 multiplied by min from nums2. sort and heap |
 | 2543 | [Check If Point Is Reachable](https://leetcode.com/problems/check-if-point-is-reachable/) | [Python](./solutions/CheckIfPointIsReachable/solution.py)| starting at 2d point, some transformations allowed. can we reach destination. greedy or maths. matma. |
 | 2565 | [Subsequence With The Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/) | [C++](./solutions/SubsequenceWithTheMinimumScore/solution.cpp) | remove chars from t so that it becomes a subsequence of s. dp |
+| 2608 | [Shortest Cycle In A Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/) | [Python](./solutions/ShortestCycleInAGraph/solution.py)| as title. dfs. grafy. |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
