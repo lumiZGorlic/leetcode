@@ -169,6 +169,7 @@ TODO practise union find and dp complexity analysis ??
 | 342 | [Power Of Four](https://leetcode.com/problems/power-of-four/) | [C++](./solutions/PowerOfFour/solution.cpp) | check if given int is a power of 4, play with bits |
 | 348 | [Shuffle An Array](https://leetcode.com/problems/shuffle-an-array/) | [C++](./solutions/ShuffleAnArray/solution.cpp) | Fisher Yates Algorithm for random shuffling |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [C++](./solutions/RussianDollEnvelopes/solution.cpp) | kind of matryoshka problem with 2d envelopes. sort and then dp |
+| 371 | [Sum Of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) | [C++](./solutions/SumOfTwoIntegers/solution.cpp) | as title. bits manipulation. |
 | 375 | [Guess Number Higher Or Lower II](https://leetcode.com/problems/guess-number-higher-or-lower-ii/) | [C++](./solutions/GuessNumberHigherOrLowerII/solution.cpp) | kind of minimax with transposition table/memoization |
 | 380 | [Insert Delete Get Random in O(1)](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [C++](./solutions/InsertDeleteGetRandomO1/solution.cpp) | class to insert values, delete and get random |
 | 394 | [Decode String](https://leetcode.com/problems/decode-string/) | [Python](./solutions/DecodeString/solution.py)| string encoded with ints, brackets and chars. use stack. |
@@ -325,6 +326,7 @@ TODO practise union find and dp complexity analysis ??
 | 1705 | [Maximum Number Of Eaten Apples](https://leetcode.com/problems/maximum-number-of-eaten-apples/) | [C++](./solutions/MaximumNumberOfEatenApples/solution.cpp) | each day apples grow and rot, how many can we eat, heap |
 | 1711 | [Count Good Meals](https://leetcode.com/problems/count-good-meals/) | [C++](./solutions/CountGoodMeals/solution.cpp) | in array find all pairs that sum up to any power of 2. hash map |
 | 1726 | [Tuple With Same Product](https://leetcode.com/problems/tuple-with-same-product/) | [C++](./solutions/TupleWithSameProduct/solution.cpp) | array of distinct positive ints, find all tuples a,b,c,d such that ab=cd |
+| 1739 | [Building Boxes](https://leetcode.com/problems/building-boxes/) | [Python](./solutions/BuildingBoxes/solution.py)| stack boxes according to rules. find minimum number of boxes on the floor. matma |
 | 1751 | [Maximum Number Of Events That Can Be Attended II](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended-ii/) | [C++](./solutions/MaximumNumberOfEventsThatCanBeAttendedII/solution.cpp) [Python](./solutions/MaximumNumberOfEventsThatCanBeAttendedII/solution.py)| each event has start, end and value. pick at most k events to maximize sum of values. dp and bs. good practise. |
 | 1775 | [Equal Sum Arrays With Minimum Number Of Operations](https://leetcode.com/problems/equal-sum-arrays-with-minimum-number-of-operations/) | [C++](./solutions/EqualSumArraysWithMinimumNumberOfOperations/solution.cpp) [Python](./solutions/EqualSumArraysWithMinimumNumberOfOperations/solution.py)| modify values in arrays to make sums equal. greedy approach. |
 | 1781 | [Sum Of Beauty Of All Substrings](https://leetcode.com/problems/sum-of-beauty-of-all-substrings/) | [C++](./solutions/SumOfBeautyOfAllSubstrings/solution.cpp) | beauty of string is diff in freq between most and last frequent chars, sum beauties of all substrings, hashing |
@@ -373,4 +375,5 @@ TODO practise union find and dp complexity analysis ??
 | 2565 | [Subsequence With The Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/) | [C++](./solutions/SubsequenceWithTheMinimumScore/solution.cpp) | remove chars from t so that it becomes a subsequence of s. dp |
 | 2608 | [Shortest Cycle In A Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/) | [Python](./solutions/ShortestCycleInAGraph/solution.py)| as title. dfs. grafy. |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
+
 
