@@ -22,6 +22,7 @@ TODO practise union find and dp complexity analysis ??
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./solutions/AddTwoNumbers/solution.cpp)| classic linked list |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./solutions/LongestSubstringWithoutRepeatingCharacters/solution.cpp) | sliding window |
 | 4 | [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./solutions/MedianOfTwoSortedArrays/solution.cpp) | can just merge the arrays, try also other solution which is tricky |
+| 8 | [String To Integer](https://leetcode.com/problems/string-to-integer-atoi/) | [C](./solutions/StringToInteger/solution.c) [C++](./solutions/StringToInteger/solution.cpp) [Python](./solutions/StringToInteger/solution.py)| as title |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](./solutions/RegularExpressionMatching/solution.py)| check if s matches p, special chars * and . recursion, try also dp |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./solutions/RomanToInteger/solution.py)| convert roman number to integer, use hash map |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./solutions/LongestCommonPrefix/solution.cpp) | as title, get loops right |
@@ -375,5 +376,4 @@ TODO practise union find and dp complexity analysis ??
 | 2565 | [Subsequence With The Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/) | [C++](./solutions/SubsequenceWithTheMinimumScore/solution.cpp) | remove chars from t so that it becomes a subsequence of s. dp |
 | 2608 | [Shortest Cycle In A Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/) | [Python](./solutions/ShortestCycleInAGraph/solution.py)| as title. dfs. grafy. |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
-
 
