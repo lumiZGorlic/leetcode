@@ -27,6 +27,7 @@ TODO practise union find and dp complexity analysis ??
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./solutions/RomanToInteger/solution.py)| convert roman number to integer, use hash map |
 | 14 | [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | [C++](./solutions/LongestCommonPrefix/solution.cpp) | as title, get loops right |
 | 15 | [3Sum](https://leetcode.com/problems/3sum/) | [C++](./solutions/3Sum/solution.cpp) | array of ints, find all unique triplets that sum to 0 |
+| 17 | [Letter Combinations Of A Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [Python](./solutions/LetterCombinationsOfAPhoneNumber/solution.py)| cartesian product problem |
 | 18 | [4Sum](https://leetcode.com/problems/4sum/) | [Python](./solutions/4Sum/solution.py) | array of ints, find all unique quadruplets that sum to given target, used set to avoid duplicate quadruplets |
 | 20 | [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | [C](./solutions/ValidParentheses/solution.c) [Python](./solutions/ValidParentheses/solution.py)| classic. stack. also assembly. |
 | 22 | [Generate Parentheses](https://leetcode.com/problems/generate-parentheses/) | [Python](./solutions/GenerateParentheses/solution.py)| generate all valid combinations, recursion |
@@ -60,6 +61,7 @@ TODO practise union find and dp complexity analysis ??
 | 63 | [Unique Paths II](https://leetcode.com/problems/unique-paths-ii/) | [C++](./solutions/UniquePathsII/solution.cpp)| dp |
 | 69 | [Sqrt(x)](https://leetcode.com/problems/sqrtx/) | [Python](./solutions/Sqrtx/solution.py) | bs, try also Newton |
 | 70 | [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) | [Python](./solutions/ClimbingStairs/solution.py)| Need to reach nth step. Can climb 1 or 2 steps at a time. What's the number of ways to do it. Fibonacci |
+| 73 | [Set Matrix Zeroes](https://leetcode.com/problems/set-matrix-zeroes/) | [C++](./solutions/SetMatrixZeroes/solution.cpp) [Python](./solutions/SetMatrixZeroes/solution.py)| if 0 found, fill whole row and column with 0s. use only constant memory. |
 | 74 | [Search A 2D Matrix](https://leetcode.com/problems/search-a-2d-matrix/) |  [Python](./solutions/SearchA2DMatrix/solution.py)| bs and mapping |
 | 75 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | [C++](./solutions/SortColors/solution.cpp) [Python](./solutions/SortColors/solution.py)| dutch partitioning problem, sort 3 colors in 1 pass with constant extra space |
 | 76 | [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/) | [C++](./solutions/MinimumWindowSubstring/solution.cpp) | two strings s and t, return the minimum window substring of s such that every character in t (including duplicates) is included in the window. sliding window. |
