@@ -379,5 +379,6 @@ TODO practise union find and dp complexity analysis ??
 | 2565 | [Subsequence With The Minimum Score](https://leetcode.com/problems/subsequence-with-the-minimum-score/) | [C++](./solutions/SubsequenceWithTheMinimumScore/solution.cpp) | remove chars from t so that it becomes a subsequence of s. dp |
 | 2608 | [Shortest Cycle In A Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/) | [Python](./solutions/ShortestCycleInAGraph/solution.py)| as title. dfs. grafy. |
 | 2659 | [Make Array Empty](https://leetcode.com/problems/make-array-empty/) | [Python](./solutions/MakeArrayEmpty/solution.py)| rotate to move smallest el to front then remove it. keep doing that. number of operations. sort. |
+| 2685 | [Count The Number Of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | [C++](./solutions/CountTheNumberOfCompleteComponents/solution.cpp) | as title. count edges and nodes. grafy |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
