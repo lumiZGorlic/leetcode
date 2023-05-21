@@ -85,3 +85,36 @@ int main(){
 
 
 }
+
+
+/*
+        n, m = len(grid), len(grid[0])
+        ret = 0
+        done = set()
+
+        def dfs(y, x, d):
+            nonlocal ret, n, m
+
+            ret = max(ret, d)
+            done.add((y,x))
+
+            dirs = [....]
+
+            for dy, dx in dirs:
+                ny, nx = y+dy, x+dx
+                if 0 <= ny < n and 0 <= nx < m and (ny,nx) not in done and ..... :
+                    dfs(ny, nx, d+1)
+
+            pass
+
+
+        for y in range(n):
+            for x in range(m):
+                if (y, x) not in done:
+                dfs(y, 0, 0)
+
+        return ret
+*/
+
+
+

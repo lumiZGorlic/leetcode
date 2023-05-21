@@ -170,6 +170,7 @@ TODO practise union find and dp complexity analysis ??
 | 337 | [House Robber III](https://leetcode.com/problems/house-robber-iii/) | [C++](./solutions/HouseRobberIII/solution.cpp)| house robber in a binary tree |
 | 338 | [Counting Bits](https://leetcode.com/problems/counting-bits/) | [C++](./solutions/CountingBits/solution.cpp) | for a sequence of ints e.g 1,2,3,4,5 calculate mapping int - number of bits in binary representation  |
 | 342 | [Power Of Four](https://leetcode.com/problems/power-of-four/) | [C++](./solutions/PowerOfFour/solution.cpp) | check if given int is a power of 4, play with bits |
+| 345 | [Reverse Vowels Of A String](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [C++](./solutions/ReverseVowelsOfAString/solution.cpp) [Python](./solutions/ReverseVowelsOfAString/solution.py)| as title. good practise. |
 | 347 | [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) | [C++](./solutions/TopKFrequentElements/solution.cpp) | as title. heap or bucket sort |
 | 348 | [Shuffle An Array](https://leetcode.com/problems/shuffle-an-array/) | [C++](./solutions/ShuffleAnArray/solution.cpp) | Fisher Yates Algorithm for random shuffling |
 | 354 | [Russian Doll Envelopes](https://leetcode.com/problems/russian-doll-envelopes/) | [C++](./solutions/RussianDollEnvelopes/solution.cpp) | kind of matryoshka problem with 2d envelopes. sort and then dp |
