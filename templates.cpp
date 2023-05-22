@@ -1,3 +1,8 @@
+// potentially good as templates
+// https://leetcode.com/problems/find-the-punishment-number-of-an-integer/
+
+
+
 #include <iostream>
 #include <vector>
 #include <queue>

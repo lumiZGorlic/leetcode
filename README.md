@@ -22,6 +22,7 @@ TODO practise union find and dp complexity analysis ??
 | 2 | [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/) | [C++](./solutions/AddTwoNumbers/solution.cpp)| classic linked list |
 | 3 | [Longest Substring Without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [C++](./solutions/LongestSubstringWithoutRepeatingCharacters/solution.cpp) | sliding window |
 | 4 | [Median Of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [C++](./solutions/MedianOfTwoSortedArrays/solution.cpp) | can just merge the arrays, try also other solution which is tricky |
+| 7 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/) | [C++](./solutions/ReverseInteger/solution.cpp) | as title |
 | 8 | [String To Integer](https://leetcode.com/problems/string-to-integer-atoi/) | [C](./solutions/StringToInteger/solution.c) [C++](./solutions/StringToInteger/solution.cpp) [Python](./solutions/StringToInteger/solution.py)| as title |
 | 10 | [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Python](./solutions/RegularExpressionMatching/solution.py)| check if s matches p, special chars * and . recursion, try also dp |
 | 13 | [Roman To Integer](https://leetcode.com/problems/roman-to-integer/) | [Python](./solutions/RomanToInteger/solution.py)| convert roman number to integer, use hash map |
