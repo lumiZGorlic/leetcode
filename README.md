@@ -12,7 +12,8 @@ Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
 TODO practise union find and dp complexity analysis ??
-
+do below in assembly
+https://leetcode.com/problems/neighboring-bitwise-xor/
 
 
 
