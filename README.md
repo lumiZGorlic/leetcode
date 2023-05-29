@@ -383,5 +383,6 @@ https://leetcode.com/problems/neighboring-bitwise-xor/
 | 2608 | [Shortest Cycle In A Graph](https://leetcode.com/problems/shortest-cycle-in-a-graph/) | [Python](./solutions/ShortestCycleInAGraph/solution.py)| as title. dfs. grafy. |
 | 2659 | [Make Array Empty](https://leetcode.com/problems/make-array-empty/) | [Python](./solutions/MakeArrayEmpty/solution.py)| rotate to move smallest el to front then remove it. keep doing that. number of operations. sort. |
 | 2685 | [Count The Number Of Complete Components](https://leetcode.com/problems/count-the-number-of-complete-components/) | [C++](./solutions/CountTheNumberOfCompleteComponents/solution.cpp) | as title. count edges and nodes. grafy |
+| 2712 | [Minimum Cost To Make All Characters Equal](https://leetcode.com/problems/minimum-cost-to-make-all-characters-equal/) | [Python](./solutions/MinimumCostToMakeAllCharactersEqual/solution.py)| binary string. flip values. dp. good practise.  |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
