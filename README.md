@@ -205,6 +205,7 @@ https://leetcode.com/problems/neighboring-bitwise-xor/
 | 493 | [Reverse Pairs](https://leetcode.com/problems/reverse-pairs/) | [C++](./solutions/ReversePairs/solution.cpp) | merge sort solution |
 | 494 | [Target Sum](https://leetcode.com/problems/target-sum/) | [Python](./solutions/TargetSum/solution.py)| given a sequence of ints, insert '+'s and '-'s to end up with target sum |
 | 496 | [Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/) | [Python](./solutions/NextGreaterElementI/solution.py)| classic stack |
+| 498 | [Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/) | [C++](./solutions/DiagonalTraverse/solution.cpp) [Python](./solutions/DiagonalTraverse/solution.py)| notice that if we add row and column of an element, we get an ID of a diagonal |
 | 503 | [Next Greater Element II](https://leetcode.com/problems/next-greater-element-ii/) | [Python](./solutions/NextGreaterElementII/solution.py)| given circular array find next greater number for every element, use stack |
 | 516 | [Longest Palindromic Subsequence](https://leetcode.com/problems/longest-palindromic-subsequence/) | [C++](./solutions/LongestPalindromicSubsequence/solution.cpp) | classic dp |
 | 518 | [Coin Change 2](https://leetcode.com/problems/coin-change-2/) | [C++](./solutions/CoinChange2/solution.cpp) | classic dp, the number of combinations that make up the amount |
