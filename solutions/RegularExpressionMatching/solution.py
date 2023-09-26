@@ -11,10 +11,7 @@ class Solution:
 
             if not s1: return False
 
-            if s1[0] == s2[0]: return helper(s1[1:], s2[1:])
-            if s2[0] == '.': return helper(s1[1:], s2[1:])
-
-            return False
+            return (s1[0] == s2[0] or s2[0] == '.') and helper(s1[1:], s2[1:])
             pass
 
         return helper(s, p)
