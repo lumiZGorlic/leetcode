@@ -11,9 +11,9 @@ in code base grep for 'cool read'
 Template
 | 00 | [](https://leetcode.com/problems//) | [C++](./solutions//solution.cpp) [Python](./solutions//solution.py)|  |
 
-TODO practise union find and dp complexity analysis ??
-do below in assembly
-https://leetcode.com/problems/neighboring-bitwise-xor/
+
+
+
 
 
 | # | Title | Solution | Comments |
@@ -388,5 +388,6 @@ https://leetcode.com/problems/neighboring-bitwise-xor/
 | 2799 | [Count Complete Subarrays In An Array](https://leetcode.com/problems/count-complete-subarrays-in-an-array/) | [C++](./solutions/CountCompleteSubarraysInAnArray/solution.cpp) | count subarrays that have same number of distinct elements as whole array. sliding window |
 | 2856 | [Minimum Array Length After Pair Removals](https://leetcode.com/problems/minimum-array-length-after-pair-removals/) | [C++](./solutions/MinimumArrayLengthAfterPairRemovals/solution.cpp) | sorted array, keep cancelling elements, how many left. tricky intuition. matma |
 | 2919 | [Minimum Increment Operations To Make Array Beautiful](https://leetcode.com/problems/minimum-increment-operations-to-make-array-beautiful/) | [Python](./solutions/MinimumIncrementOperationsToMakeArrayBeautiful/solution.py)| given array and k. do increments till all subarrays of length 3 have at least one element k. dp. try also other methods |
+| 2957 | [Remove Adjacent Almost Equal Characters](https://leetcode.com/problems/remove-adjacent-almost-equal-characters/) | [C++](./solutions/RemoveAdjacentAlmostEqualCharacters/solution.cpp) | in a move we can pick index and modify char in string. minimum moves to arrive at string in which there's no adjacent chars that are same of diff by 1. greedy |
 | no number | [Candy Crush 1D](https://leetcode.com/discuss/interview-question/380650/Bloomberg-or-Phone-Screen-or-Candy-Crush-1D) | [C++](./solutions/CandyCrush1D/solution.cpp) | candy crush in 1D, blmbrg interview |
 
